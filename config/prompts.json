@@ -22,5 +22,13 @@
             "system": "You are a market trends analyst specializing in automotive marketing data. Your analysis should be precise, quantitative, and focused on meaningful patterns.",
             "user": "Analyze the weekly performance trends in this BMW marketing data and provide:\n\n1. Clear explanation of how growth percentages are calculated (include the formula)\n2. Week-by-week performance table for the top markets\n3. Whether current growth rates are within industry benchmarks\n4. Statistical significance of observed trends\n5. Recommendation on how to maintain positive trends or reverse negative ones\n\nTrend data: {{trendData}}"
         }
+    },
+    "marketSummary": {
+        "model": "gpt-4o-mini",
+        "max_completion_tokens": 400,
+        "messages": {
+            "system": "You are a data analyst for BMW focused on providing factual automotive marketing performance metrics. Provide objective data summaries without strategic recommendations or subjective assessments.",
+            "user": "Generate a concise data summary of the France market data for {{timeframe}}. Focus exclusively on objective findings:\n\n1. PERFORMANCE OVERVIEW: 2-3 sentences summarizing the current state of the France market, highlighting key metrics (media spend, impressions, IV, NVWR)\n\n2. TREND ANALYSIS: List the Month-over-Month (MoM) percentage changes for all key metrics\n\n3. MODEL PERFORMANCE: List the top 5 performing models by media spend with their exact metrics\n\nBe precise, data-focused, and entirely factual. Use only the actual data provided. Format your response with clear headings.\n\nData: {{marketData}}"
+        }
     }
 }

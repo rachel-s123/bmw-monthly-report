@@ -95,7 +95,7 @@
 .summary-stats {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -193,10 +193,106 @@
 
 /* Section Title */
 .section-title {
-  margin: 1rem 0;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #333;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
   font-weight: 500;
+}
+
+/* Summary Section Styles */
+.summary-section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.market-insights {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  text-align: left;
+}
+
+.market-insights p {
+  margin: 0 0 0.5rem 0;
+  text-align: left;
+}
+
+/* Markdown formatting */
+.market-insights h1, 
+.market-insights h2, 
+.market-insights h3, 
+.market-insights h4 {
+  margin-top: 0.8em;
+  margin-bottom: 0.3em;
+  font-weight: 600;
+  color: #0066b1;
+  text-align: left;
+}
+
+/* Style for section headings like "PERFORMANCE OVERVIEW:" */
+.market-insights p strong {
+  display: block;
+  font-weight: 700;
+  color: #0066b1;
+  margin-top: 0.8em;
+  margin-bottom: 0.3em;
+  font-size: 1.05rem;
+}
+
+.market-insights h1:first-child, 
+.market-insights h2:first-child, 
+.market-insights h3:first-child, 
+.market-insights h4:first-child {
+  margin-top: 0;
+}
+
+.market-insights h1 {
+  font-size: 1.5rem;
+}
+
+.market-insights h2 {
+  font-size: 1.3rem;
+}
+
+.market-insights h3 {
+  font-size: 1.1rem;
+}
+
+.market-insights h4 {
+  font-size: 1rem;
+}
+
+.market-insights ul, 
+.market-insights ol {
+  margin: 0.3em 0 0.7em 1.5em;
+  padding-left: 0;
+}
+
+.market-insights li {
+  margin-bottom: 0.2em;
+}
+
+.market-insights strong {
+  font-weight: 600;
+  color: #333;
+}
+
+.market-insights em {
+  font-style: italic;
+}
+
+.loading-insights {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  color: #666;
+  font-style: italic;
 }
 
 /* Metric Description */
@@ -224,14 +320,16 @@
 
 .month-label {
   color: #666;
+  font-size: 0.9rem;
 }
 
 .month-value {
   font-weight: 600;
   color: #0066b1;
+  font-size: 0.9rem;
   background-color: rgba(0, 102, 177, 0.1);
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
 }
 
 .month-subtitle {
@@ -239,4 +337,177 @@
   font-weight: normal;
   color: #666;
   margin-left: 0.5rem;
+}
+
+/* Top Controls Container */
+.top-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+
+/* Dashboard Content Adjustment */
+.france-dashboard .dashboard-content {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+/* Month Selector Styles */
+.month-selector-container {
+  position: relative;
+  display: inline-block;
+}
+
+.selected-month {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  background-color: rgba(0, 102, 177, 0.1);
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  font-size: 0.9rem;
+}
+
+.selected-month:hover {
+  background-color: rgba(0, 102, 177, 0.2);
+}
+
+.dropdown-arrow {
+  font-size: 0.7rem;
+  color: #0066b1;
+}
+
+.month-selector-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  width: 120px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.month-option {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 0.9rem;
+}
+
+.month-option:hover {
+  background-color: #f0f0f0;
+}
+
+.month-option.active {
+  background-color: rgba(0, 102, 177, 0.1);
+  font-weight: 600;
+  color: #0066b1;
+}
+
+/* Change Indicators */
+.change-indicator {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.change-indicator.positive {
+  color: #00c49f;
+}
+
+.change-indicator.negative {
+  color: #ff6b6b;
+}
+
+.change-indicator.positive-reversed {
+  color: #ff6b6b;
+}
+
+.change-indicator.negative-reversed {
+  color: #00c49f;
+}
+
+.change-indicator::before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-right: 2px;
+}
+
+.change-indicator.positive::before,
+.change-indicator.positive-reversed::before {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 6px solid currentColor;
+}
+
+.change-indicator.negative::before,
+.change-indicator.negative-reversed::before {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid currentColor;
+}
+
+.mom-label {
+  color: #888;
+  font-weight: 400;
+  margin-left: 3px;
+}
+
+/* YTD Container */
+.ytd-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.ytd-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.ytd-stat {
+  flex: 1;
+  min-width: 150px;
+  text-align: center;
+}
+
+.ytd-stat h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.ytd-stat p {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #0066b1;
+}
+
+/* Media Spend Card */
+.media-spend-card .stat-value {
+  font-size: 2rem;
+  color: #0066b1;
+  font-weight: 700;
+}
+
+.summary-stats .media-spend-card {
+  background-color: rgba(0, 102, 177, 0.05);
 } 
