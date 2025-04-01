@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 const dotenv = require("dotenv");
+const fs = require("fs");
 
 // Load environment variables
 dotenv.config();
@@ -9,6 +10,19 @@ dotenv.config();
 // Import routes
 const franceRoutes = require("./routes/france");
 const insightsRoutes = require("./routes/insights");
+
+// Check if Portugal routes exist before importing
+let portugalRoutes;
+const portugalRoutePath = path.join(__dirname, "./routes/portugal.js");
+const hasPortugalRoutes = fs.existsSync(portugalRoutePath);
+if (hasPortugalRoutes) {
+  try {
+    portugalRoutes = require("./routes/portugal");
+    console.log("Portugal routes loaded successfully");
+  } catch (error) {
+    console.warn("Error loading Portugal routes:", error.message);
+  }
+}
 
 const app = express();
 const PORT = process.env.PORT || 5001;
@@ -25,6 +39,11 @@ app.get("/api/health", (req, res) => {
 // Use route handlers
 app.use("/api/france", franceRoutes);
 app.use("/api/insights", insightsRoutes);
+
+// Only add Portugal routes if they exist
+if (hasPortugalRoutes && portugalRoutes) {
+  app.use("/api/portugal", portugalRoutes);
+}
 
 // Future route imports will go here
 // const germanyRoutes = require('./routes/germany');

@@ -29,6 +29,64 @@ function processTemplate(template, data) {
 }
 
 /**
+ * Generate market summary using AI
+ * POST /api/insights/market-summary
+ */
+router.post("/market-summary", async (req, res) => {
+  try {
+    const { marketData, timeframe, country } = req.body;
+
+    if (!marketData) {
+      return res.status(400).json({ error: "Missing market data" });
+    }
+
+    // Create a formatted data summary for the prompt
+    const dataSummary = `
+      Country: ${country || "France"}
+      Timeframe: ${timeframe || "current month"}
+      Media Spend: €${marketData.totalMediaSpend?.toLocaleString() || 0}
+      Impressions: ${(marketData.totalImpressions || 0).toLocaleString()}
+      Clicks: ${(marketData.totalClicks || 0).toLocaleString()}
+      CTR: ${((marketData.weightedCTR || 0) * 100).toFixed(2)}%
+      CPM: €${(marketData.weightedCPM || 0).toFixed(2)}
+      Top Models: ${Object.keys(marketData.models || {})
+        .slice(0, 3)
+        .join(", ")}
+    `;
+
+    // Construct messages for the AI
+    const messages = [
+      {
+        role: "system",
+        content: `You are a marketing data analyst generating insights about BMW marketing performance in ${country}. 
+                 Provide a clear, data-focused summary without any marketing strategy recommendations.
+                 Format your response in markdown with 3 sections: Performance Overview, Trend Analysis, and Model Performance.`,
+      },
+      {
+        role: "user",
+        content: `Analyze this ${country} market data for ${timeframe}:\n${dataSummary}`,
+      },
+    ];
+
+    // Generate completion using OpenAI
+    const completion = await generateCompletion("gpt-4-turbo", messages, {
+      maxTokens: 750,
+    });
+
+    // Extract content from completion
+    const summary = completion.choices[0].message.content;
+
+    return res.json({ summary });
+  } catch (error) {
+    console.error("Error generating market summary:", error);
+    return res.status(500).json({
+      error: "Failed to generate market summary",
+      message: error.message,
+    });
+  }
+});
+
+/**
  * Generate insights using AI
  * POST /api/insights/generate
  */

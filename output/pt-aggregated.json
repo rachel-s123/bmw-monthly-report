@@ -1,0 +1,169 @@
+{
+  "months": {
+    "MAR-2025": {
+      "totalMediaSpend": 21428.629999999997,
+      "totalImpressions": 14323216,
+      "totalClicks": 103018,
+      "totalIV": 5928,
+      "weightedCTR": 0.007192379141667625,
+      "weightedCPM": 1.4960767190832003,
+      "weightedCPC": 0.20800860043875824,
+      "weightedCPIV": 3.6148161268556,
+      "weightedCpNVWR": 320.0111111111111,
+      "validCTRCount": 1,
+      "validCPMCount": 1,
+      "validCPCCount": 1,
+      "validCPIVCount": 1,
+      "validCpNVWRCount": 9,
+      "models": {
+        "G 310 R (K03)": {
+          "mediaSpend": 8696.9,
+          "impressions": 5051509,
+          "clicks": 37923,
+          "iv": 2117
+        },
+        "F 900 GS (K81)": {
+          "mediaSpend": 6379.06,
+          "impressions": 3661611,
+          "clicks": 33174,
+          "iv": 1692
+        },
+        "S 1000 XR (K69)": {
+          "mediaSpend": 6352.67,
+          "impressions": 5610096,
+          "clicks": 31921,
+          "iv": 2119
+        }
+      },
+      "avgCTR": 0.007192379141667625,
+      "avgCPM": 1.4960767190832003,
+      "avgCPC": 0.20800860043875824,
+      "avgCPIV": 3.6148161268556,
+      "avgCpNVWR": 320.0111111111111
+    },
+    "JAN-2025": {
+      "totalMediaSpend": 6362.26,
+      "totalImpressions": 9219252,
+      "totalClicks": 65505,
+      "totalIV": 6338,
+      "weightedCTR": 0.0071052402082077805,
+      "weightedCPM": 0.6901058784378602,
+      "weightedCPC": 0.09712632623463859,
+      "weightedCPIV": 1.003827705900915,
+      "weightedCpNVWR": 309.905,
+      "validCTRCount": 1,
+      "validCPMCount": 1,
+      "validCPCCount": 1,
+      "validCPIVCount": 1,
+      "validCpNVWRCount": 2,
+      "models": {
+        "G 310 R (K03)": {
+          "mediaSpend": 2371.35,
+          "impressions": 3041668,
+          "clicks": 22102,
+          "iv": 2072
+        },
+        "S 1000 XR (K69)": {
+          "mediaSpend": 2015.71,
+          "impressions": 3269190,
+          "clicks": 22903,
+          "iv": 2220
+        },
+        "F 900 GS (K81)": {
+          "mediaSpend": 1975.1999999999998,
+          "impressions": 2908394,
+          "clicks": 20500,
+          "iv": 2046
+        }
+      },
+      "avgCTR": 0.0071052402082077805,
+      "avgCPM": 0.6901058784378602,
+      "avgCPC": 0.09712632623463859,
+      "avgCPIV": 1.003827705900915,
+      "avgCpNVWR": 309.905
+    },
+    "FEB-2025": {
+      "totalMediaSpend": 21743.14,
+      "totalImpressions": 16709834,
+      "totalClicks": 95603,
+      "totalIV": 6136,
+      "weightedCTR": 0.0057213614450029844,
+      "weightedCPM": 1.3012181928318378,
+      "weightedCPC": 0.22743156595504324,
+      "weightedCPIV": 3.543536505867014,
+      "weightedCpNVWR": 219.08142857142857,
+      "validCTRCount": 1,
+      "validCPMCount": 1,
+      "validCPCCount": 1,
+      "validCPIVCount": 1,
+      "validCpNVWRCount": 21,
+      "models": {
+        "G 310 R (K03)": {
+          "mediaSpend": 8778.39,
+          "impressions": 5668163,
+          "clicks": 31446,
+          "iv": 1949
+        },
+        "S 1000 XR (K69)": {
+          "mediaSpend": 6479.85,
+          "impressions": 6076453,
+          "clicks": 33689,
+          "iv": 2282
+        },
+        "F 900 GS (K81)": {
+          "mediaSpend": 6484.9,
+          "impressions": 4965218,
+          "clicks": 30468,
+          "iv": 1905
+        }
+      },
+      "avgCTR": 0.0057213614450029844,
+      "avgCPM": 1.3012181928318378,
+      "avgCPC": 0.22743156595504324,
+      "avgCPIV": 3.543536505867014,
+      "avgCpNVWR": 219.08142857142857
+    }
+  },
+  "models": {
+    "G 310 R (K03)": {
+      "totalMediaSpend": 39693.28,
+      "totalImpressions": 27522680,
+      "totalClicks": 182942,
+      "totalIV": 12276
+    },
+    "F 900 GS (K81)": {
+      "totalMediaSpend": 29678.320000000003,
+      "totalImpressions": 23070446,
+      "totalClicks": 168284,
+      "totalIV": 11286
+    },
+    "S 1000 XR (K69)": {
+      "totalMediaSpend": 29696.46,
+      "totalImpressions": 29911478,
+      "totalClicks": 177026,
+      "totalIV": 13242
+    }
+  },
+  "yearToDateTotals": {
+    "mediaSpend": 49534.03,
+    "impressions": 40252302,
+    "clicks": 264126,
+    "iv": 18402
+  },
+  "yearToDateAverages": {
+    "ctr": 0.006561761362120358,
+    "cpm": 1.1624669301176327,
+    "cpc": 0.17752216420948005,
+    "cpIv": 2.720726779541176,
+    "cpNvwr": 26.531173115079362
+  },
+  "lastUpdated": "2025-04-01T16:36:18.513Z",
+  "monthlyComparison": {
+    "mediaSpendChange": 236.8084611443103,
+    "impressionsChange": 55.362018523845535,
+    "clicksChange": 57.2673841691474,
+    "ctrChange": 1.2264037654797948,
+    "cpmChange": 116.78944721783193,
+    "cpcChange": 114.1629447985599
+  }
+}

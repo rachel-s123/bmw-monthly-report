@@ -55,4 +55,21 @@ export const fetchUKData = async () => {
   }
 };
 
+/**
+ * Fetches processed BMW marketing data for Portugal
+ * @returns {Promise<Object>} Aggregated marketing data for Portugal
+ */
+export const fetchPortugalData = async () => {
+  try {
+    const response = await fetch("/api/portugal");
+    if (!response.ok) {
+      throw new Error("Failed to fetch Portugal data");
+    }
+    return await response.json();
+  } catch (error) {
+    console.error("Error fetching Portugal data:", error);
+    throw error;
+  }
+};
+
 export default API;
