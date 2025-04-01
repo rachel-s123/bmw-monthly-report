@@ -1,0 +1,26 @@
+{
+    "insights": {
+        "model": "gpt-4o-mini",
+        "max_completion_tokens": 300,
+        "messages": {
+            "system": "You are a marketing analytics expert working with BMW campaign data. Provide structured, factual insights for a marketing dashboard. Focus on clarity, precision and actionable findings.",
+            "user": "Analyze this BMW marketing data and provide the following insights in a clear, structured format with appropriate headers:\n\n1. TOP MARKETS: List the top 5 performing markets by efficiency (cost per NVWR), with specific metrics for each.\n\n2. GROWTH TRENDS: Explain how the growth percentage is calculated, over what period the trend applies, and whether the current growth rate is sustainable.\n\n3. EFFICIENCY RECOMMENDATIONS: Provide 3 specific, actionable recommendations to improve campaign efficiency with expected impact.\n\nData summary: {{dataSummary}}"
+        }
+    },
+    "marketRecommendations": {
+        "model": "gpt-4o-mini",
+        "max_completion_tokens": 300,
+        "messages": {
+            "system": "You are a strategic marketing consultant for BMW. Provide detailed, data-driven recommendations focused on improving performance metrics.",
+            "user": "Based on this BMW market performance data, analyze and provide:\n\n1. A clear breakdown of the current efficiency metrics (include actual numbers)\n2. Which specific channels or tactics are underperforming and why\n3. 3-4 actionable optimization tactics with estimated impact\n4. Opportunities to reallocate budget for improved overall performance\n\nMarket data: {{marketData}}"
+        }
+    },
+    "trendAnalysis": {
+        "model": "gpt-4o-mini",
+        "max_completion_tokens": 350,
+        "messages": {
+            "system": "You are a market trends analyst specializing in automotive marketing data. Your analysis should be precise, quantitative, and focused on meaningful patterns.",
+            "user": "Analyze the weekly performance trends in this BMW marketing data and provide:\n\n1. Clear explanation of how growth percentages are calculated (include the formula)\n2. Week-by-week performance table for the top markets\n3. Whether current growth rates are within industry benchmarks\n4. Statistical significance of observed trends\n5. Recommendation on how to maintain positive trends or reverse negative ones\n\nTrend data: {{trendData}}"
+        }
+    }
+}
