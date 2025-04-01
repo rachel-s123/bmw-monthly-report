@@ -1,0 +1,2635 @@
+{
+  "months": {
+    "JAN-2025": {
+      "totalMediaSpend": 61867.45509300002,
+      "totalImpressions": 12625292,
+      "totalClicks": 176950,
+      "totalIV": 47054,
+      "weightedCTR": 0,
+      "weightedCPM": 61867455.09299999,
+      "weightedCPC": 61867.45509300002,
+      "weightedCPIV": 61843.75016900002,
+      "weightedCpNVWR": 32969.90484200002,
+      "validCTRCount": 0,
+      "validCPMCount": 12625292,
+      "validCPCCount": 176950,
+      "validCPIVCount": 47054,
+      "validCpNVWRCount": 410,
+      "models": {
+        "Multi": {
+          "mediaSpend": 39544.51823600001,
+          "impressions": 11698160,
+          "clicks": 94373,
+          "iv": 100
+        },
+        "Brand": {
+          "mediaSpend": 10132.553463,
+          "impressions": 790755,
+          "clicks": 61337,
+          "iv": 30924
+        },
+        "CE 02 (0C71)": {
+          "mediaSpend": 859.858521,
+          "impressions": 4079,
+          "clicks": 1063,
+          "iv": 869
+        },
+        "NOT MAPPED": {
+          "mediaSpend": 1711.6868590000004,
+          "impressions": 28473,
+          "clicks": 3732,
+          "iv": 2962
+        },
+        "CE 04 (0C51)": {
+          "mediaSpend": 540.9861599999999,
+          "impressions": 5197,
+          "clicks": 1043,
+          "iv": 821
+        },
+        "R 1300 GS Adventure (0M31)": {
+          "mediaSpend": 478.733406,
+          "impressions": 8310,
+          "clicks": 1610,
+          "iv": 1049
+        },
+        "K 1600 B (0F61)": {
+          "mediaSpend": 528.708053,
+          "impressions": 2461,
+          "clicks": 307,
+          "iv": 209
+        },
+        "F 900 XR (0K21)": {
+          "mediaSpend": 335.458858,
+          "impressions": 7302,
+          "clicks": 1387,
+          "iv": 1137
+        },
+        "R 1250 RS (0M81)": {
+          "mediaSpend": 322.65208400000006,
+          "impressions": 2828,
+          "clicks": 452,
+          "iv": 290
+        },
+        "G 310 R (0G41)": {
+          "mediaSpend": 319.32444799999996,
+          "impressions": 3736,
+          "clicks": 458,
+          "iv": 337
+        },
+        "F 900 GS Adventure (0K71)": {
+          "mediaSpend": 319.287809,
+          "impressions": 2249,
+          "clicks": 534,
+          "iv": 397
+        },
+        "R 1250 RT (0L01)": {
+          "mediaSpend": 331.12073799999996,
+          "impressions": 3783,
+          "clicks": 499,
+          "iv": 344
+        },
+        "F 900 R (0K11)": {
+          "mediaSpend": 333.095124,
+          "impressions": 5698,
+          "clicks": 990,
+          "iv": 865
+        },
+        "R 18 Classic (0L21)": {
+          "mediaSpend": 313.268232,
+          "impressions": 1293,
+          "clicks": 219,
+          "iv": 119
+        },
+        "R 1250 R (0M71)": {
+          "mediaSpend": 310.809738,
+          "impressions": 2828,
+          "clicks": 381,
+          "iv": 261
+        },
+        "R 18 B (0L31)": {
+          "mediaSpend": 316.852376,
+          "impressions": 1243,
+          "clicks": 172,
+          "iv": 102
+        },
+        "R 18 (0N71)": {
+          "mediaSpend": 315.03604899999993,
+          "impressions": 3254,
+          "clicks": 408,
+          "iv": 295
+        },
+        "G 310 GS (0G31)": {
+          "mediaSpend": 297.50565800000004,
+          "impressions": 2394,
+          "clicks": 373,
+          "iv": 257
+        },
+        "K 1600 GT (0F21)": {
+          "mediaSpend": 303.472829,
+          "impressions": 3552,
+          "clicks": 321,
+          "iv": 207
+        },
+        "R 1250 GS Adventure (0M11)": {
+          "mediaSpend": 307.992751,
+          "impressions": 4093,
+          "clicks": 549,
+          "iv": 428
+        },
+        "R 18 Roctane (0N91)": {
+          "mediaSpend": 277.906774,
+          "impressions": 392,
+          "clicks": 92,
+          "iv": 58
+        },
+        "F 900 GS (0K61)": {
+          "mediaSpend": 282.85617199999996,
+          "impressions": 3013,
+          "clicks": 793,
+          "iv": 609
+        },
+        "F 800 GS (0K51)": {
+          "mediaSpend": 277.87812199999996,
+          "impressions": 3560,
+          "clicks": 553,
+          "iv": 468
+        },
+        "K 1600 GTL (0F31)": {
+          "mediaSpend": 274.025399,
+          "impressions": 2681,
+          "clicks": 238,
+          "iv": 155
+        },
+        "M 1000 RR (0P01)": {
+          "mediaSpend": 275.700269,
+          "impressions": 916,
+          "clicks": 110,
+          "iv": 64
+        },
+        "R 12 ( 0N51)": {
+          "mediaSpend": 255.45666799999998,
+          "impressions": 3710,
+          "clicks": 574,
+          "iv": 453
+        },
+        "R 18 Transcontinental (0L41)": {
+          "mediaSpend": 258.12673500000005,
+          "impressions": 1032,
+          "clicks": 150,
+          "iv": 92
+        },
+        "R nineT (0N01)": {
+          "mediaSpend": 256.888708,
+          "impressions": 1274,
+          "clicks": 227,
+          "iv": 165
+        },
+        "Generic": {
+          "mediaSpend": 497.22825700000004,
+          "impressions": 5902,
+          "clicks": 533,
+          "iv": 455
+        },
+        "R 1250 RT (K52)": {
+          "mediaSpend": 134.15035,
+          "impressions": 1422,
+          "clicks": 216,
+          "iv": 135
+        },
+        "F 900 R (K83)": {
+          "mediaSpend": 117.234032,
+          "impressions": 1877,
+          "clicks": 335,
+          "iv": 265
+        },
+        "R 12 (KR3)": {
+          "mediaSpend": 113.447157,
+          "impressions": 954,
+          "clicks": 190,
+          "iv": 128
+        },
+        "M 1000 XR (KM9)": {
+          "mediaSpend": 109.92764,
+          "impressions": 1190,
+          "clicks": 139,
+          "iv": 111
+        },
+        "F 900 XR (K84)": {
+          "mediaSpend": 108.06707,
+          "impressions": 2211,
+          "clicks": 395,
+          "iv": 335
+        },
+        "M 1000 R (KM3)": {
+          "mediaSpend": 98.863311,
+          "impressions": 803,
+          "clicks": 112,
+          "iv": 91
+        },
+        "R 1300 GS (KA1)": {
+          "mediaSpend": 92.861342,
+          "impressions": 2301,
+          "clicks": 405,
+          "iv": 263
+        },
+        "CE 04 (K07)": {
+          "mediaSpend": 85.088457,
+          "impressions": 1380,
+          "clicks": 247,
+          "iv": 193
+        },
+        "S 1000 R (K63)": {
+          "mediaSpend": 58.935774,
+          "impressions": 1039,
+          "clicks": 187,
+          "iv": 149
+        },
+        "M 1000 RR (K66)": {
+          "mediaSpend": 55.685586,
+          "impressions": 1135,
+          "clicks": 114,
+          "iv": 85
+        },
+        "CE 02 (K06)": {
+          "mediaSpend": 40.075392,
+          "impressions": 720,
+          "clicks": 142,
+          "iv": 99
+        },
+        "R 18 (K34)": {
+          "mediaSpend": 36.880198,
+          "impressions": 590,
+          "clicks": 89,
+          "iv": 59
+        },
+        "S 1000 RR (K67)": {
+          "mediaSpend": 35.378248,
+          "impressions": 1094,
+          "clicks": 182,
+          "iv": 165
+        },
+        "K 1600 GT(K48)": {
+          "mediaSpend": 29.623654000000002,
+          "impressions": 629,
+          "clicks": 58,
+          "iv": 28
+        },
+        "F 900 GS (K81)": {
+          "mediaSpend": 26.53922,
+          "impressions": 731,
+          "clicks": 157,
+          "iv": 111
+        },
+        "F 800 GS (K80)": {
+          "mediaSpend": 24.423855,
+          "impressions": 569,
+          "clicks": 93,
+          "iv": 68
+        },
+        "K 1600 B / Grand America (K61)": {
+          "mediaSpend": 23.704924000000002,
+          "impressions": 219,
+          "clicks": 32,
+          "iv": 0
+        },
+        "S 1000 XR (K69)": {
+          "mediaSpend": 23.321505,
+          "impressions": 673,
+          "clicks": 105,
+          "iv": 93
+        },
+        "R nineT (KR1)": {
+          "mediaSpend": 16.624913,
+          "impressions": 221,
+          "clicks": 33,
+          "iv": 14
+        },
+        "R 18 B / Transcontinental (K35)": {
+          "mediaSpend": 15.06022,
+          "impressions": 140,
+          "clicks": 21,
+          "iv": 8
+        },
+        "C 400 GT (K08)": {
+          "mediaSpend": 8.812426,
+          "impressions": 193,
+          "clicks": 41,
+          "iv": 34
+        },
+        "R 1300 GS Adventure (KA2)": {
+          "mediaSpend": 8.060961,
+          "impressions": 295,
+          "clicks": 48,
+          "iv": 39
+        },
+        "R 1250 RS (K54)": {
+          "mediaSpend": 6.944163,
+          "impressions": 149,
+          "clicks": 31,
+          "iv": 21
+        },
+        "G 310 R (K03)": {
+          "mediaSpend": 6.929322,
+          "impressions": 203,
+          "clicks": 28,
+          "iv": 17
+        },
+        "R 1250 R (K53)": {
+          "mediaSpend": 3.51,
+          "impressions": 94,
+          "clicks": 13,
+          "iv": 12
+        },
+        "F 900 GS Adventure (K82)": {
+          "mediaSpend": 3.494926,
+          "impressions": 136,
+          "clicks": 27,
+          "iv": 21
+        },
+        "C 400 X (K09)": {
+          "mediaSpend": 3.267151,
+          "impressions": 68,
+          "clicks": 18,
+          "iv": 8
+        },
+        "G 310 GS (K02)": {
+          "mediaSpend": 1.5548,
+          "impressions": 88,
+          "clicks": 14,
+          "iv": 10
+        }
+      },
+      "avgCTR": 0.01401551742328019,
+      "avgCPM": 4.900279145464515,
+      "avgCPC": 0.34963241081096363,
+      "avgCPIV": 1.314314408318103,
+      "avgCpNVWR": 80.41440205365858
+    },
+    "FEB-2025": {
+      "totalMediaSpend": 62332.955303000024,
+      "totalImpressions": 10853384,
+      "totalClicks": 179036,
+      "totalIV": 29218,
+      "weightedCTR": 0,
+      "weightedCPM": 62332955.302999966,
+      "weightedCPC": 62332.95530300002,
+      "weightedCPIV": 62171.89814600003,
+      "weightedCpNVWR": 27305.827860999998,
+      "validCTRCount": 0,
+      "validCPMCount": 10853384,
+      "validCPCCount": 179036,
+      "validCPIVCount": 29218,
+      "validCpNVWRCount": 446,
+      "models": {
+        "Multi": {
+          "mediaSpend": 38730.414045,
+          "impressions": 10151349,
+          "clicks": 79751,
+          "iv": 188
+        },
+        "Brand": {
+          "mediaSpend": 8381.447267,
+          "impressions": 135572,
+          "clicks": 67073,
+          "iv": 7267
+        },
+        "Generic": {
+          "mediaSpend": 2877.9550050000003,
+          "impressions": 33113,
+          "clicks": 3044,
+          "iv": 2684
+        },
+        "F 900 R (K83)": {
+          "mediaSpend": 2036.910526,
+          "impressions": 251808,
+          "clicks": 5230,
+          "iv": 2738
+        },
+        "M 1000 XR (KM9)": {
+          "mediaSpend": 833.241814,
+          "impressions": 8678,
+          "clicks": 1292,
+          "iv": 984
+        },
+        "F 900 XR (K84)": {
+          "mediaSpend": 1461.797567,
+          "impressions": 160653,
+          "clicks": 4543,
+          "iv": 2755
+        },
+        "CE 04 (K07)": {
+          "mediaSpend": 803.762448,
+          "impressions": 8137,
+          "clicks": 1477,
+          "iv": 1116
+        },
+        "R 12 (KR3)": {
+          "mediaSpend": 1028.025721,
+          "impressions": 6822,
+          "clicks": 1259,
+          "iv": 876
+        },
+        "R 1250 RT (K52)": {
+          "mediaSpend": 676.9266130000001,
+          "impressions": 7650,
+          "clicks": 1056,
+          "iv": 715
+        },
+        "M 1000 R (KM3)": {
+          "mediaSpend": 587.5228440000001,
+          "impressions": 6315,
+          "clicks": 866,
+          "iv": 793
+        },
+        "R 1300 GS (KA1)": {
+          "mediaSpend": 814.342424,
+          "impressions": 13703,
+          "clicks": 2509,
+          "iv": 1827
+        },
+        "NOT MAPPED": {
+          "mediaSpend": 383.776969,
+          "impressions": 7587,
+          "clicks": 1464,
+          "iv": 83
+        },
+        "K 1600 GT(K48)": {
+          "mediaSpend": 237.67730699999998,
+          "impressions": 3729,
+          "clicks": 440,
+          "iv": 256
+        },
+        "S 1000 RR (K67)": {
+          "mediaSpend": 227.666038,
+          "impressions": 5118,
+          "clicks": 869,
+          "iv": 849
+        },
+        "M 1000 RR (K66)": {
+          "mediaSpend": 300.443838,
+          "impressions": 4780,
+          "clicks": 510,
+          "iv": 384
+        },
+        "R 18 (K34)": {
+          "mediaSpend": 491.01268100000004,
+          "impressions": 5269,
+          "clicks": 695,
+          "iv": 457
+        },
+        "CE 02 (K06)": {
+          "mediaSpend": 323.584613,
+          "impressions": 4513,
+          "clicks": 951,
+          "iv": 691
+        },
+        "S 1000 XR (K69)": {
+          "mediaSpend": 248.419303,
+          "impressions": 5003,
+          "clicks": 925,
+          "iv": 775
+        },
+        "S 1000 R (K63)": {
+          "mediaSpend": 415.38673499999993,
+          "impressions": 6818,
+          "clicks": 1224,
+          "iv": 1020
+        },
+        "F 800 GS (K80)": {
+          "mediaSpend": 302.214899,
+          "impressions": 9337,
+          "clicks": 805,
+          "iv": 658
+        },
+        "F 900 GS (K81)": {
+          "mediaSpend": 287.468991,
+          "impressions": 4875,
+          "clicks": 1055,
+          "iv": 851
+        },
+        "R 18 B / Transcontinental (K35)": {
+          "mediaSpend": 102.52221000000002,
+          "impressions": 1155,
+          "clicks": 130,
+          "iv": 43
+        },
+        "K 1600 B / Grand America (K61)": {
+          "mediaSpend": 119.061963,
+          "impressions": 1183,
+          "clicks": 157,
+          "iv": 0
+        },
+        "R nineT (KR1)": {
+          "mediaSpend": 189.38376399999999,
+          "impressions": 1566,
+          "clicks": 202,
+          "iv": 116
+        },
+        "C 400 GT (K08)": {
+          "mediaSpend": 99.672296,
+          "impressions": 1470,
+          "clicks": 305,
+          "iv": 223
+        },
+        "R 1300 GS Adventure (KA2)": {
+          "mediaSpend": 98.722211,
+          "impressions": 2376,
+          "clicks": 374,
+          "iv": 263
+        },
+        "R 1250 RS (K54)": {
+          "mediaSpend": 30.045329,
+          "impressions": 739,
+          "clicks": 124,
+          "iv": 63
+        },
+        "G 310 R (K03)": {
+          "mediaSpend": 81.353181,
+          "impressions": 1394,
+          "clicks": 216,
+          "iv": 150
+        },
+        "C 400 X (K09)": {
+          "mediaSpend": 35.460859,
+          "impressions": 488,
+          "clicks": 90,
+          "iv": 56
+        },
+        "F 900 GS Adventure (K82)": {
+          "mediaSpend": 47.246402,
+          "impressions": 814,
+          "clicks": 163,
+          "iv": 127
+        },
+        "G 310 GS (K02)": {
+          "mediaSpend": 37.81279000000001,
+          "impressions": 729,
+          "clicks": 127,
+          "iv": 119
+        },
+        "R 1250 R (K53)": {
+          "mediaSpend": 41.67665,
+          "impressions": 641,
+          "clicks": 110,
+          "iv": 91
+        }
+      },
+      "avgCTR": 0.016495868938203973,
+      "avgCPM": 5.74318160151709,
+      "avgCPC": 0.3481587798152328,
+      "avgCPIV": 2.1278628977342744,
+      "avgCpNVWR": 61.22382928475336
+    },
+    "MAR-2025": {
+      "totalMediaSpend": 83537.91318100004,
+      "totalImpressions": 19817082,
+      "totalClicks": 218844,
+      "totalIV": 26669,
+      "weightedCTR": 0,
+      "weightedCPM": 83537913.18100005,
+      "weightedCPC": 83537.91318100003,
+      "weightedCPIV": 77159.75729300003,
+      "weightedCpNVWR": 60766.510182999984,
+      "validCTRCount": 0,
+      "validCPMCount": 19817082,
+      "validCPCCount": 218844,
+      "validCPIVCount": 26669,
+      "validCpNVWRCount": 535,
+      "models": {
+        "Multi": {
+          "mediaSpend": 54463.64666399999,
+          "impressions": 15251823,
+          "clicks": 102223,
+          "iv": 87
+        },
+        "Brand": {
+          "mediaSpend": 7840.277236000001,
+          "impressions": 731582,
+          "clicks": 61490,
+          "iv": 5052
+        },
+        "F 900 R (K83)": {
+          "mediaSpend": 3744.965219,
+          "impressions": 825767,
+          "clicks": 9016,
+          "iv": 3281
+        },
+        "Generic": {
+          "mediaSpend": 3316.1557789999997,
+          "impressions": 43565,
+          "clicks": 3663,
+          "iv": 1776
+        },
+        "F 900 XR (K84)": {
+          "mediaSpend": 2558.7531120000003,
+          "impressions": 452869,
+          "clicks": 6912,
+          "iv": 3228
+        },
+        "R 1250 RT (K52)": {
+          "mediaSpend": 645.455091,
+          "impressions": 7041,
+          "clicks": 1051,
+          "iv": 695
+        },
+        "CE 04 (K07)": {
+          "mediaSpend": 837.984859,
+          "impressions": 8213,
+          "clicks": 1575,
+          "iv": 1176
+        },
+        "R 12 (KR3)": {
+          "mediaSpend": 816.568045,
+          "impressions": 7642,
+          "clicks": 1380,
+          "iv": 1011
+        },
+        "R 1300 GS (KA1)": {
+          "mediaSpend": 533.6086740000001,
+          "impressions": 11974,
+          "clicks": 2313,
+          "iv": 1811
+        },
+        "CE 02 (K06)": {
+          "mediaSpend": 612.426587,
+          "impressions": 6461,
+          "clicks": 1600,
+          "iv": 1210
+        },
+        "M 1000 XR (KM9)": {
+          "mediaSpend": 390.28279800000007,
+          "impressions": 5325,
+          "clicks": 775,
+          "iv": 595
+        },
+        "M 1000 R (KM3)": {
+          "mediaSpend": 447.11796899999996,
+          "impressions": 5723,
+          "clicks": 848,
+          "iv": 768
+        },
+        "NOT MAPPED": {
+          "mediaSpend": 422.392911,
+          "impressions": 8402,
+          "clicks": 1616,
+          "iv": 5
+        },
+        "F 800 GS (K80)": {
+          "mediaSpend": 499.530483,
+          "impressions": 64835,
+          "clicks": 1235,
+          "iv": 842
+        },
+        "R 18 (K34)": {
+          "mediaSpend": 186.79779,
+          "impressions": 2828,
+          "clicks": 437,
+          "iv": 266
+        },
+        "S 1000 R (K63)": {
+          "mediaSpend": 320.27709500000003,
+          "impressions": 5610,
+          "clicks": 1140,
+          "iv": 961
+        },
+        "S 1000 XR (K69)": {
+          "mediaSpend": 287.572597,
+          "impressions": 5190,
+          "clicks": 1024,
+          "iv": 876
+        },
+        "F 900 GS (K81)": {
+          "mediaSpend": 208.62303,
+          "impressions": 4103,
+          "clicks": 857,
+          "iv": 694
+        },
+        "K 1600 GT(K48)": {
+          "mediaSpend": 177.729393,
+          "impressions": 2696,
+          "clicks": 364,
+          "iv": 180
+        },
+        "M 1000 RR (K66)": {
+          "mediaSpend": 156.511212,
+          "impressions": 3360,
+          "clicks": 395,
+          "iv": 167
+        },
+        "S 1000 RR (K67)": {
+          "mediaSpend": 200.22798000000003,
+          "impressions": 4437,
+          "clicks": 878,
+          "iv": 775
+        },
+        "R nineT (KR1)": {
+          "mediaSpend": 109.24948699999999,
+          "impressions": 1093,
+          "clicks": 162,
+          "iv": 101
+        },
+        "C 400 GT (K08)": {
+          "mediaSpend": 87.313091,
+          "impressions": 1359,
+          "clicks": 271,
+          "iv": 185
+        },
+        "K 1600 B / Grand America (K61)": {
+          "mediaSpend": 63.889694,
+          "impressions": 944,
+          "clicks": 126,
+          "iv": 0
+        },
+        "G 310 R (K03)": {
+          "mediaSpend": 57.58525999999999,
+          "impressions": 1017,
+          "clicks": 179,
+          "iv": 136
+        },
+        "R 1300 GS Adventure (KA2)": {
+          "mediaSpend": 93.828883,
+          "impressions": 2712,
+          "clicks": 416,
+          "iv": 337
+        },
+        "F 900 GS Adventure (K82)": {
+          "mediaSpend": 34.400833,
+          "impressions": 870,
+          "clicks": 160,
+          "iv": 137
+        },
+        "C 400 X (K09)": {
+          "mediaSpend": 37.034693000000004,
+          "impressions": 576,
+          "clicks": 91,
+          "iv": 49
+        },
+        "R 18 B / Transcontinental (K35)": {
+          "mediaSpend": 38.627367,
+          "impressions": 652,
+          "clicks": 79,
+          "iv": 18
+        },
+        "G 310 GS (K02)": {
+          "mediaSpend": 28.355102000000002,
+          "impressions": 551,
+          "clicks": 119,
+          "iv": 74
+        },
+        "R 1250 R (K53)": {
+          "mediaSpend": 17.967164999999998,
+          "impressions": 388,
+          "clicks": 94,
+          "iv": 75
+        },
+        "R 1250 RS (K54)": {
+          "mediaSpend": 37.787082000000005,
+          "impressions": 849,
+          "clicks": 174,
+          "iv": 101
+        },
+        "Customer Support": {
+          "mediaSpend": 4264.969999999999,
+          "impressions": 2346625,
+          "clicks": 16181,
+          "iv": 0
+        }
+      },
+      "avgCTR": 0.011043200002906583,
+      "avgCPM": 4.2154497408347025,
+      "avgCPC": 0.3817235710414726,
+      "avgCPIV": 2.893237740185235,
+      "avgCpNVWR": 113.58226202429904
+    }
+  },
+  "models": {
+    "Multi": {
+      "totalMediaSpend": 132738.57894500002,
+      "totalImpressions": 37101332,
+      "totalClicks": 276347,
+      "totalIV": 375,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 39544.51823600001,
+          "impressions": 11698160,
+          "clicks": 94373,
+          "iv": 100,
+          "ctr": 0.008067337085490367,
+          "cpm": 3.1585655775857866,
+          "cpc": 0.39014740894584876,
+          "cpIv": 275.0678571428572,
+          "cpNvwr": 7701.900000000001
+        },
+        "FEB-2025": {
+          "mediaSpend": 38730.414045,
+          "impressions": 10151349,
+          "clicks": 79751,
+          "iv": 188,
+          "ctr": 0.007856197240386475,
+          "cpm": 3.5870638134007224,
+          "cpc": 0.45167260347743377,
+          "cpIv": 185.7945435434783,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 54463.64666399999,
+          "impressions": 15251823,
+          "clicks": 102223,
+          "iv": 87,
+          "ctr": 0.00670234633591014,
+          "cpm": 3.2605406386316975,
+          "cpc": 0.5276648462600217,
+          "cpIv": 326.68210327272726,
+          "cpNvwr": 17967.51568
+        }
+      }
+    },
+    "Brand": {
+      "totalMediaSpend": 26354.277966,
+      "totalImpressions": 1657909,
+      "totalClicks": 189900,
+      "totalIV": 43243,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 10132.553463,
+          "impressions": 790755,
+          "clicks": 61337,
+          "iv": 30924,
+          "ctr": 0.07756764105190608,
+          "cpm": 48.09115345353676,
+          "cpc": 0.13593273341696724,
+          "cpIv": 0.25027949790674175,
+          "cpNvwr": 34.673721640000004
+        },
+        "FEB-2025": {
+          "mediaSpend": 8381.447267,
+          "impressions": 135572,
+          "clicks": 67073,
+          "iv": 7267,
+          "ctr": 0.4947408019355029,
+          "cpm": 43.88367124245547,
+          "cpc": 0.08495953794086213,
+          "cpIv": 0.6362898159018143,
+          "cpNvwr": 51.84378760869565
+        },
+        "MAR-2025": {
+          "mediaSpend": 7840.277236000001,
+          "impressions": 731582,
+          "clicks": 61490,
+          "iv": 5052,
+          "ctr": 0.08405072842142097,
+          "cpm": 3.954778131567316,
+          "cpc": 0.12618282472288203,
+          "cpIv": 1.411124804648589,
+          "cpNvwr": 74.997133
+        }
+      }
+    },
+    "CE 02 (0C71)": {
+      "totalMediaSpend": 859.858521,
+      "totalImpressions": 4079,
+      "totalClicks": 1063,
+      "totalIV": 869,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 859.858521,
+          "impressions": 4079,
+          "clicks": 1063,
+          "iv": 869,
+          "ctr": 0.2606030889924001,
+          "cpm": 422.4914669540231,
+          "cpc": 1.4593253647642683,
+          "cpIv": 1.953847581395349,
+          "cpNvwr": 147.02703050000002
+        }
+      }
+    },
+    "NOT MAPPED": {
+      "totalMediaSpend": 2517.8567390000007,
+      "totalImpressions": 44462,
+      "totalClicks": 6812,
+      "totalIV": 3050,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 1711.6868590000004,
+          "impressions": 28473,
+          "clicks": 3732,
+          "iv": 2962,
+          "ctr": 0.13107154146033084,
+          "cpm": 58.48853913540278,
+          "cpc": 0.4325680549295775,
+          "cpIv": 0.49218480608974363,
+          "cpNvwr": 102.37443966666667
+        },
+        "FEB-2025": {
+          "mediaSpend": 383.776969,
+          "impressions": 7587,
+          "clicks": 1464,
+          "iv": 83,
+          "ctr": 0.1929616449189403,
+          "cpm": 61.97642422653382,
+          "cpc": 0.3229208770491803,
+          "cpIv": 2.4622716875,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 422.392911,
+          "impressions": 8402,
+          "clicks": 1616,
+          "iv": 5,
+          "ctr": 0.1923351582956439,
+          "cpm": 47.15401398337113,
+          "cpc": 0.25993650208333335,
+          "cpIv": 0,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "CE 04 (0C51)": {
+      "totalMediaSpend": 540.9861599999999,
+      "totalImpressions": 5197,
+      "totalClicks": 1043,
+      "totalIV": 821,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 540.9861599999999,
+          "impressions": 5197,
+          "clicks": 1043,
+          "iv": 821,
+          "ctr": 0.20069270733115258,
+          "cpm": 160.6311256830601,
+          "cpc": 0.7873793571428571,
+          "cpIv": 1.0667720322580645,
+          "cpNvwr": 52.9118928
+        }
+      }
+    },
+    "R 1300 GS Adventure (0M31)": {
+      "totalMediaSpend": 478.733406,
+      "totalImpressions": 8310,
+      "totalClicks": 1610,
+      "totalIV": 1049,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 478.733406,
+          "impressions": 8310,
+          "clicks": 1610,
+          "iv": 1049,
+          "ctr": 0.19374247894103488,
+          "cpm": 55.564212959141564,
+          "cpc": 0.3094990528735632,
+          "cpIv": 0.4949709117647059,
+          "cpNvwr": 134.632088
+        }
+      }
+    },
+    "K 1600 B (0F61)": {
+      "totalMediaSpend": 528.708053,
+      "totalImpressions": 2461,
+      "totalClicks": 307,
+      "totalIV": 209,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 528.708053,
+          "impressions": 2461,
+          "clicks": 307,
+          "iv": 209,
+          "ctr": 0.12474603819585535,
+          "cpm": 186.36904731861196,
+          "cpc": 1.5967294054054053,
+          "cpIv": 2.4616244999999997,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "F 900 XR (0K21)": {
+      "totalMediaSpend": 335.458858,
+      "totalImpressions": 7302,
+      "totalClicks": 1387,
+      "totalIV": 1137,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 335.458858,
+          "impressions": 7302,
+          "clicks": 1387,
+          "iv": 1137,
+          "ctr": 0.1899479594631608,
+          "cpm": 58.409492673067206,
+          "cpc": 0.3002399636363636,
+          "cpIv": 0.3827562450331126,
+          "cpNvwr": 115.592386
+        }
+      }
+    },
+    "R 1250 RS (0M81)": {
+      "totalMediaSpend": 322.65208400000006,
+      "totalImpressions": 2828,
+      "totalClicks": 452,
+      "totalIV": 290,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 322.65208400000006,
+          "impressions": 2828,
+          "clicks": 452,
+          "iv": 290,
+          "ctr": 0.15983026874115983,
+          "cpm": 134.75004911838792,
+          "cpc": 0.7642252785714286,
+          "cpIv": 1.229787804597701,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "G 310 R (0G41)": {
+      "totalMediaSpend": 319.32444799999996,
+      "totalImpressions": 3736,
+      "totalClicks": 458,
+      "totalIV": 337,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 319.32444799999996,
+          "impressions": 3736,
+          "clicks": 458,
+          "iv": 337,
+          "ctr": 0.12259100642398287,
+          "cpm": 102.75375413022353,
+          "cpc": 0.8526904274193549,
+          "cpIv": 1.3216701625,
+          "cpNvwr": 52.8668065
+        }
+      }
+    },
+    "F 900 GS Adventure (0K71)": {
+      "totalMediaSpend": 319.287809,
+      "totalImpressions": 2249,
+      "totalClicks": 534,
+      "totalIV": 397,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 319.287809,
+          "impressions": 2249,
+          "clicks": 534,
+          "iv": 397,
+          "ctr": 0.23743886171631837,
+          "cpm": 174.2805305785124,
+          "cpc": 0.7221898698630137,
+          "cpIv": 1.0870074329896908,
+          "cpNvwr": 52.7198605
+        }
+      }
+    },
+    "R 1250 RT (0L01)": {
+      "totalMediaSpend": 331.12073799999996,
+      "totalImpressions": 3783,
+      "totalClicks": 499,
+      "totalIV": 344,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 331.12073799999996,
+          "impressions": 3783,
+          "clicks": 499,
+          "iv": 344,
+          "ctr": 0.13190589479249273,
+          "cpm": 71.66688631722259,
+          "cpc": 0.6266586666666667,
+          "cpIv": 1.0026538666666667,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "F 900 R (0K11)": {
+      "totalMediaSpend": 333.095124,
+      "totalImpressions": 5698,
+      "totalClicks": 990,
+      "totalIV": 865,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 333.095124,
+          "impressions": 5698,
+          "clicks": 990,
+          "iv": 865,
+          "ctr": 0.17374517374517376,
+          "cpm": 60.543009296920395,
+          "cpc": 0.38166490476190473,
+          "cpIv": 0.4891761455399061,
+          "cpNvwr": 104.194519
+        }
+      }
+    },
+    "R 18 Classic (0L21)": {
+      "totalMediaSpend": 313.268232,
+      "totalImpressions": 1293,
+      "totalClicks": 219,
+      "totalIV": 119,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 313.268232,
+          "impressions": 1293,
+          "clicks": 219,
+          "iv": 119,
+          "ctr": 0.16937354988399073,
+          "cpm": 351.7421602787457,
+          "cpc": 1.9047169811320754,
+          "cpIv": 4.038,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "R 1250 R (0M71)": {
+      "totalMediaSpend": 310.809738,
+      "totalImpressions": 2828,
+      "totalClicks": 381,
+      "totalIV": 261,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 310.809738,
+          "impressions": 2828,
+          "clicks": 381,
+          "iv": 261,
+          "ctr": 0.1347241867043847,
+          "cpm": 131.7031947368421,
+          "cpc": 0.9910339405940594,
+          "cpIv": 1.6144262580645161,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "R 18 B (0L31)": {
+      "totalMediaSpend": 316.852376,
+      "totalImpressions": 1243,
+      "totalClicks": 172,
+      "totalIV": 102,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 316.852376,
+          "impressions": 1243,
+          "clicks": 172,
+          "iv": 102,
+          "ctr": 0.13837489943684633,
+          "cpm": 305.8571724137931,
+          "cpc": 2.1681875111111113,
+          "cpIv": 3.6136458518518517,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "R 18 (0N71)": {
+      "totalMediaSpend": 315.03604899999993,
+      "totalImpressions": 3254,
+      "totalClicks": 408,
+      "totalIV": 295,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 315.03604899999993,
+          "impressions": 3254,
+          "clicks": 408,
+          "iv": 295,
+          "ctr": 0.1253841425937308,
+          "cpm": 123.213667090216,
+          "cpc": 0.9794864242424243,
+          "cpIv": 1.3467938333333334,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "G 310 GS (0G31)": {
+      "totalMediaSpend": 297.50565800000004,
+      "totalImpressions": 2394,
+      "totalClicks": 373,
+      "totalIV": 257,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 297.50565800000004,
+          "impressions": 2394,
+          "clicks": 373,
+          "iv": 257,
+          "ctr": 0.1558061821219716,
+          "cpm": 154.2034712460064,
+          "cpc": 0.9281862788461539,
+          "cpIv": 1.253654194805195,
+          "cpNvwr": 48.2656865
+        }
+      }
+    },
+    "K 1600 GT (0F21)": {
+      "totalMediaSpend": 303.472829,
+      "totalImpressions": 3552,
+      "totalClicks": 321,
+      "totalIV": 207,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 303.472829,
+          "impressions": 3552,
+          "clicks": 321,
+          "iv": 207,
+          "ctr": 0.09037162162162163,
+          "cpm": 99.67595208333333,
+          "cpc": 0.9290185825242718,
+          "cpIv": 1.4498320303030303,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "R 1250 GS Adventure (0M11)": {
+      "totalMediaSpend": 307.992751,
+      "totalImpressions": 4093,
+      "totalClicks": 549,
+      "totalIV": 428,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 307.992751,
+          "impressions": 4093,
+          "clicks": 549,
+          "iv": 428,
+          "ctr": 0.1341314439286587,
+          "cpm": 72.287454115421,
+          "cpc": 0.47754899375,
+          "cpIv": 0.5969362421875,
+          "cpNvwr": 25.469279666666665
+        }
+      }
+    },
+    "R 18 Roctane (0N91)": {
+      "totalMediaSpend": 277.906774,
+      "totalImpressions": 392,
+      "totalClicks": 92,
+      "totalIV": 58,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 277.906774,
+          "impressions": 392,
+          "clicks": 92,
+          "iv": 58,
+          "ctr": 0.23469387755102042,
+          "cpm": 685.9603302752294,
+          "cpc": 3.115403166666667,
+          "cpIv": 7.4769676,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "F 900 GS (0K61)": {
+      "totalMediaSpend": 282.85617199999996,
+      "totalImpressions": 3013,
+      "totalClicks": 793,
+      "totalIV": 609,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 282.85617199999996,
+          "impressions": 3013,
+          "clicks": 793,
+          "iv": 609,
+          "ctr": 0.2631928310653833,
+          "cpm": 107.48540825688073,
+          "cpc": 0.366122171875,
+          "cpIv": 0.5057227122302158,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "F 800 GS (0K51)": {
+      "totalMediaSpend": 277.87812199999996,
+      "totalImpressions": 3560,
+      "totalClicks": 553,
+      "totalIV": 468,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 277.87812199999996,
+          "impressions": 3560,
+          "clicks": 553,
+          "iv": 468,
+          "ctr": 0.1553370786516854,
+          "cpm": 77.24258215962442,
+          "cpc": 0.4803699270072993,
+          "cpIv": 0.5875953571428572,
+          "cpNvwr": 65.81068
+        }
+      }
+    },
+    "K 1600 GTL (0F31)": {
+      "totalMediaSpend": 274.025399,
+      "totalImpressions": 2681,
+      "totalClicks": 238,
+      "totalIV": 155,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 274.025399,
+          "impressions": 2681,
+          "clicks": 238,
+          "iv": 155,
+          "ctr": 0.08877284595300261,
+          "cpm": 101.7159306451613,
+          "cpc": 1.167849574074074,
+          "cpIv": 2.4255337307692306,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "M 1000 RR (0P01)": {
+      "totalMediaSpend": 275.700269,
+      "totalImpressions": 916,
+      "totalClicks": 110,
+      "totalIV": 64,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 275.700269,
+          "impressions": 916,
+          "clicks": 110,
+          "iv": 64,
+          "ctr": 0.12008733624454149,
+          "cpm": 349.8305084745763,
+          "cpc": 3.258947368421053,
+          "cpIv": 6.192,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "R 12 ( 0N51)": {
+      "totalMediaSpend": 255.45666799999998,
+      "totalImpressions": 3710,
+      "totalClicks": 574,
+      "totalIV": 453,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 255.45666799999998,
+          "impressions": 3710,
+          "clicks": 574,
+          "iv": 453,
+          "ctr": 0.15471698113207547,
+          "cpm": 51.23305177993527,
+          "cpc": 0.3466645182481752,
+          "cpIv": 0.40592341025641027,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "R 18 Transcontinental (0L41)": {
+      "totalMediaSpend": 258.12673500000005,
+      "totalImpressions": 1032,
+      "totalClicks": 150,
+      "totalIV": 92,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 258.12673500000005,
+          "impressions": 1032,
+          "clicks": 150,
+          "iv": 92,
+          "ctr": 0.14534883720930233,
+          "cpm": 250.22738297872343,
+          "cpc": 1.517508,
+          "cpIv": 2.7672204705882355,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "R nineT (0N01)": {
+      "totalMediaSpend": 256.888708,
+      "totalImpressions": 1274,
+      "totalClicks": 227,
+      "totalIV": 165,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 256.888708,
+          "impressions": 1274,
+          "clicks": 227,
+          "iv": 165,
+          "ctr": 0.1781789638932496,
+          "cpm": 127.92613636363637,
+          "cpc": 0.8187272727272727,
+          "cpIv": 1.8012000000000001,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "Generic": {
+      "totalMediaSpend": 6691.339041,
+      "totalImpressions": 82580,
+      "totalClicks": 7240,
+      "totalIV": 4915,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 497.22825700000004,
+          "impressions": 5902,
+          "clicks": 533,
+          "iv": 455,
+          "ctr": 0.09030837004405286,
+          "cpm": 84.24741731616402,
+          "cpc": 0.9328860356472797,
+          "cpIv": 1.0928093560439562,
+          "cpNvwr": 82.87137616666668
+        },
+        "FEB-2025": {
+          "mediaSpend": 2877.9550050000003,
+          "impressions": 33113,
+          "clicks": 3044,
+          "iv": 2684,
+          "ctr": 0.09192764171171443,
+          "cpm": 94.2219490492221,
+          "cpc": 1.1417788776185227,
+          "cpIv": 1.4323560746887969,
+          "cpNvwr": 57.53296900000001
+        },
+        "MAR-2025": {
+          "mediaSpend": 3316.1557789999997,
+          "impressions": 43565,
+          "clicks": 3663,
+          "iv": 1776,
+          "ctr": 0.08408125789050844,
+          "cpm": 69.66729289081167,
+          "cpc": 0.8894784542456721,
+          "cpIv": 1.729066290064103,
+          "cpNvwr": 107.89373650000002
+        }
+      }
+    },
+    "R 1250 RT (K52)": {
+      "totalMediaSpend": 1456.5320539999998,
+      "totalImpressions": 16113,
+      "totalClicks": 2323,
+      "totalIV": 1545,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 134.15035,
+          "impressions": 1422,
+          "clicks": 216,
+          "iv": 135,
+          "ctr": 0.1518987341772152,
+          "cpm": 94.3392053445851,
+          "cpc": 0.6210664351851852,
+          "cpIv": 0.9937062962962964,
+          "cpNvwr": 33.5375875
+        },
+        "FEB-2025": {
+          "mediaSpend": 676.9266130000001,
+          "impressions": 7650,
+          "clicks": 1056,
+          "iv": 715,
+          "ctr": 0.1380392156862745,
+          "cpm": 92.67994311767261,
+          "cpc": 0.7114730300000001,
+          "cpIv": 1.067209545,
+          "cpNvwr": 71.14730300000001
+        },
+        "MAR-2025": {
+          "mediaSpend": 645.455091,
+          "impressions": 7041,
+          "clicks": 1051,
+          "iv": 695,
+          "ctr": 0.14926856980542536,
+          "cpm": 99.21825916870415,
+          "cpc": 0.6527657050938338,
+          "cpIv": 1.0773522477876105,
+          "cpNvwr": 60.870402
+        }
+      }
+    },
+    "F 900 R (K83)": {
+      "totalMediaSpend": 5899.109777,
+      "totalImpressions": 1079452,
+      "totalClicks": 14581,
+      "totalIV": 6284,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 117.234032,
+          "impressions": 1877,
+          "clicks": 335,
+          "iv": 265,
+          "ctr": 0.17847629195524772,
+          "cpm": 62.45819499200852,
+          "cpc": 0.3499523343283582,
+          "cpIv": 0.44239257358490564,
+          "cpNvwr": 19.539005333333332
+        },
+        "FEB-2025": {
+          "mediaSpend": 2036.910526,
+          "impressions": 251808,
+          "clicks": 5230,
+          "iv": 2738,
+          "ctr": 0.020769792858050577,
+          "cpm": 84.20663284632035,
+          "cpc": 0.4041918376623376,
+          "cpIv": 0.49876236378205124,
+          "cpNvwr": 17.29042861111111
+        },
+        "MAR-2025": {
+          "mediaSpend": 3744.965219,
+          "impressions": 825767,
+          "clicks": 9016,
+          "iv": 3281,
+          "ctr": 0.010918334106352033,
+          "cpm": 4.4464796105804565,
+          "cpc": 0.4013959780033841,
+          "cpIv": 1.1651523722986248,
+          "cpNvwr": 51.57065717391305
+        }
+      }
+    },
+    "R 12 (KR3)": {
+      "totalMediaSpend": 1958.040923,
+      "totalImpressions": 15418,
+      "totalClicks": 2829,
+      "totalIV": 2015,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 113.447157,
+          "impressions": 954,
+          "clicks": 190,
+          "iv": 128,
+          "ctr": 0.19916142557651992,
+          "cpm": 118.91735534591196,
+          "cpc": 0.5970903000000001,
+          "cpIv": 0.8863059140625,
+          "cpNvwr": 113.447157
+        },
+        "FEB-2025": {
+          "mediaSpend": 1028.025721,
+          "impressions": 6822,
+          "clicks": 1259,
+          "iv": 876,
+          "ctr": 0.18454998534154207,
+          "cpm": 123.12983152484296,
+          "cpc": 0.6267451598837209,
+          "cpIv": 0.9414861790393013,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 816.568045,
+          "impressions": 7642,
+          "clicks": 1380,
+          "iv": 1011,
+          "ctr": 0.1805809997382884,
+          "cpm": 108.90312718786465,
+          "cpc": 0.6001927974276527,
+          "cpIv": 0.9240592079207921,
+          "cpNvwr": 37.331992
+        }
+      }
+    },
+    "M 1000 XR (KM9)": {
+      "totalMediaSpend": 1333.4522519999998,
+      "totalImpressions": 15193,
+      "totalClicks": 2206,
+      "totalIV": 1690,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 109.92764,
+          "impressions": 1190,
+          "clicks": 139,
+          "iv": 111,
+          "ctr": 0.11680672268907563,
+          "cpm": 92.37616806722689,
+          "cpc": 0.7908463309352518,
+          "cpIv": 0.9903390990990991,
+          "cpNvwr": 109.92764
+        },
+        "FEB-2025": {
+          "mediaSpend": 833.241814,
+          "impressions": 8678,
+          "clicks": 1292,
+          "iv": 984,
+          "ctr": 0.14888223092878544,
+          "cpm": 112.16824221292423,
+          "cpc": 0.6854371846590909,
+          "cpIv": 0.8969289553903346,
+          "cpNvwr": 60.31847225
+        },
+        "MAR-2025": {
+          "mediaSpend": 390.28279800000007,
+          "impressions": 5325,
+          "clicks": 775,
+          "iv": 595,
+          "ctr": 0.14553990610328638,
+          "cpm": 78.73053040719196,
+          "cpc": 0.49461605647840534,
+          "cpIv": 0.7262411365853659,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "F 900 XR (K84)": {
+      "totalMediaSpend": 4128.617749,
+      "totalImpressions": 615733,
+      "totalClicks": 11850,
+      "totalIV": 6318,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 108.06707,
+          "impressions": 2211,
+          "clicks": 395,
+          "iv": 335,
+          "ctr": 0.1786521935775667,
+          "cpm": 48.8770104025328,
+          "cpc": 0.2735875189873418,
+          "cpIv": 0.3225882686567164,
+          "cpNvwr": 108.06707
+        },
+        "FEB-2025": {
+          "mediaSpend": 1461.797567,
+          "impressions": 160653,
+          "clicks": 4543,
+          "iv": 2755,
+          "ctr": 0.028278339028838553,
+          "cpm": 64.67417999999999,
+          "cpc": 0.3423927176470588,
+          "cpIv": 0.4468849289827255,
+          "cpNvwr": 29.103381
+        },
+        "MAR-2025": {
+          "mediaSpend": 2558.7531120000003,
+          "impressions": 452869,
+          "clicks": 6912,
+          "iv": 3228,
+          "ctr": 0.015262691860118489,
+          "cpm": 5.83659704514884,
+          "cpc": 0.3276158321707017,
+          "cpIv": 0.7399441918443004,
+          "cpNvwr": 38.01903728571429
+        }
+      }
+    },
+    "M 1000 R (KM3)": {
+      "totalMediaSpend": 1133.504124,
+      "totalImpressions": 12841,
+      "totalClicks": 1826,
+      "totalIV": 1652,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 98.863311,
+          "impressions": 803,
+          "clicks": 112,
+          "iv": 91,
+          "ctr": 0.13947696139476962,
+          "cpm": 123.11744831880448,
+          "cpc": 0.8827081339285714,
+          "cpIv": 1.086410010989011,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 587.5228440000001,
+          "impressions": 6315,
+          "clicks": 866,
+          "iv": 793,
+          "ctr": 0.13713380839271574,
+          "cpm": 117.69689230769231,
+          "cpc": 0.8091661346153847,
+          "cpIv": 0.8631105435897436,
+          "cpNvwr": 168.306556
+        },
+        "MAR-2025": {
+          "mediaSpend": 447.11796899999996,
+          "impressions": 5723,
+          "clicks": 848,
+          "iv": 768,
+          "ctr": 0.1481740345972392,
+          "cpm": 80.86471616972477,
+          "cpc": 0.5262241231343283,
+          "cpIv": 0.6158430786026201,
+          "cpNvwr": 70.5140325
+        }
+      }
+    },
+    "R 1300 GS (KA1)": {
+      "totalMediaSpend": 1440.8124400000002,
+      "totalImpressions": 27978,
+      "totalClicks": 5227,
+      "totalIV": 3901,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 92.861342,
+          "impressions": 2301,
+          "clicks": 405,
+          "iv": 263,
+          "ctr": 0.1760104302477184,
+          "cpm": 40.35695002172968,
+          "cpc": 0.22928726419753084,
+          "cpIv": 0.35308495057034217,
+          "cpNvwr": 92.861342
+        },
+        "FEB-2025": {
+          "mediaSpend": 814.342424,
+          "impressions": 13703,
+          "clicks": 2509,
+          "iv": 1827,
+          "ctr": 0.18309859154929578,
+          "cpm": 52.58726738491675,
+          "cpc": 0.27964375,
+          "cpIv": 0.36775068493150687,
+          "cpNvwr": 40.2687
+        },
+        "MAR-2025": {
+          "mediaSpend": 533.6086740000001,
+          "impressions": 11974,
+          "clicks": 2313,
+          "iv": 1811,
+          "ctr": 0.19316853181894103,
+          "cpm": 40.50304362578768,
+          "cpc": 0.21563297806451612,
+          "cpIv": 0.29735864412811386,
+          "cpNvwr": 55.705186
+        }
+      }
+    },
+    "CE 04 (K07)": {
+      "totalMediaSpend": 1726.8357640000002,
+      "totalImpressions": 17730,
+      "totalClicks": 3299,
+      "totalIV": 2485,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 85.088457,
+          "impressions": 1380,
+          "clicks": 247,
+          "iv": 193,
+          "ctr": 0.17898550724637682,
+          "cpm": 61.65830217391305,
+          "cpc": 0.34448768016194337,
+          "cpIv": 0.4408728341968912,
+          "cpNvwr": 28.362819000000002
+        },
+        "FEB-2025": {
+          "mediaSpend": 803.762448,
+          "impressions": 8137,
+          "clicks": 1477,
+          "iv": 1116,
+          "ctr": 0.18151652943345215,
+          "cpm": 115.60542814070351,
+          "cpc": 0.6070047546174142,
+          "cpIv": 0.8747330874524715,
+          "cpNvwr": 57.5137005
+        },
+        "MAR-2025": {
+          "mediaSpend": 837.984859,
+          "impressions": 8213,
+          "clicks": 1575,
+          "iv": 1176,
+          "ctr": 0.19176914647510046,
+          "cpm": 90.89899658184581,
+          "cpc": 0.5017548385744235,
+          "cpIv": 0.6799348238636364,
+          "cpNvwr": 15.955803866666667
+        }
+      }
+    },
+    "S 1000 R (K63)": {
+      "totalMediaSpend": 794.599604,
+      "totalImpressions": 13467,
+      "totalClicks": 2551,
+      "totalIV": 2130,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 58.935774,
+          "impressions": 1039,
+          "clicks": 187,
+          "iv": 149,
+          "ctr": 0.17998075072184794,
+          "cpm": 56.7235553416747,
+          "cpc": 0.3151645668449198,
+          "cpIv": 0.39554210738255036,
+          "cpNvwr": 58.935774
+        },
+        "FEB-2025": {
+          "mediaSpend": 415.38673499999993,
+          "impressions": 6818,
+          "clicks": 1224,
+          "iv": 1020,
+          "ctr": 0.17952478732766208,
+          "cpm": 49.55301291364003,
+          "cpc": 0.25475594605809126,
+          "cpIv": 0.2994935756097561,
+          "cpNvwr": 61.396183
+        },
+        "MAR-2025": {
+          "mediaSpend": 320.27709500000003,
+          "impressions": 5610,
+          "clicks": 1140,
+          "iv": 961,
+          "ctr": 0.20320855614973263,
+          "cpm": 50.47065866510539,
+          "cpc": 0.2477123132183908,
+          "cpIv": 0.2780770483870968,
+          "cpNvwr": 14.367314166666667
+        }
+      }
+    },
+    "M 1000 RR (K66)": {
+      "totalMediaSpend": 512.6406360000001,
+      "totalImpressions": 9275,
+      "totalClicks": 1019,
+      "totalIV": 636,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 55.685586,
+          "impressions": 1135,
+          "clicks": 114,
+          "iv": 85,
+          "ctr": 0.10044052863436123,
+          "cpm": 49.06219030837004,
+          "cpc": 0.48847005263157894,
+          "cpIv": 0.6551245411764706,
+          "cpNvwr": 27.842793
+        },
+        "FEB-2025": {
+          "mediaSpend": 300.443838,
+          "impressions": 4780,
+          "clicks": 510,
+          "iv": 384,
+          "ctr": 0.10669456066945607,
+          "cpm": 52.20823815384615,
+          "cpc": 0.5204809018404908,
+          "cpIv": 0.6841805403225806,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 156.511212,
+          "impressions": 3360,
+          "clicks": 395,
+          "iv": 167,
+          "ctr": 0.11755952380952381,
+          "cpm": 54.67180701754386,
+          "cpc": 0.39832316541353385,
+          "cpIv": 0.815030476923077,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "CE 02 (K06)": {
+      "totalMediaSpend": 976.086592,
+      "totalImpressions": 11694,
+      "totalClicks": 2693,
+      "totalIV": 2000,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 40.075392,
+          "impressions": 720,
+          "clicks": 142,
+          "iv": 99,
+          "ctr": 0.19722222222222222,
+          "cpm": 55.66026666666667,
+          "cpc": 0.2822210704225352,
+          "cpIv": 0.4048019393939394,
+          "cpNvwr": 20.037696
+        },
+        "FEB-2025": {
+          "mediaSpend": 323.584613,
+          "impressions": 4513,
+          "clicks": 951,
+          "iv": 691,
+          "ctr": 0.21072457345446488,
+          "cpm": 69.18648848368521,
+          "cpc": 0.32041031555555555,
+          "cpIv": 0.45628051265822783,
+          "cpNvwr": 12.015386833333332
+        },
+        "MAR-2025": {
+          "mediaSpend": 612.426587,
+          "impressions": 6461,
+          "clicks": 1600,
+          "iv": 1210,
+          "ctr": 0.24763968425940258,
+          "cpm": 75.50870201276388,
+          "cpc": 0.3265631125265393,
+          "cpIv": 0.4214006191780822,
+          "cpNvwr": 30.762245200000002
+        }
+      }
+    },
+    "R 18 (K34)": {
+      "totalMediaSpend": 714.690669,
+      "totalImpressions": 8687,
+      "totalClicks": 1221,
+      "totalIV": 782,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 36.880198,
+          "impressions": 590,
+          "clicks": 89,
+          "iv": 59,
+          "ctr": 0.15084745762711865,
+          "cpm": 62.508810169491525,
+          "cpc": 0.41438424719101125,
+          "cpIv": 0.6250881016949152,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 491.01268100000004,
+          "impressions": 5269,
+          "clicks": 695,
+          "iv": 457,
+          "ctr": 0.13190358701840957,
+          "cpm": 100.25140613496932,
+          "cpc": 0.6097380298507462,
+          "cpIv": 0.8785472688172042,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 186.79779,
+          "impressions": 2828,
+          "clicks": 437,
+          "iv": 266,
+          "ctr": 0.15452616690240453,
+          "cpm": 75.84246521739131,
+          "cpc": 0.50708625,
+          "cpIv": 0.90852953125,
+          "cpNvwr": 87.218835
+        }
+      }
+    },
+    "S 1000 RR (K67)": {
+      "totalMediaSpend": 463.27226599999995,
+      "totalImpressions": 10649,
+      "totalClicks": 1929,
+      "totalIV": 1789,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 35.378248,
+          "impressions": 1094,
+          "clicks": 182,
+          "iv": 165,
+          "ctr": 0.1663619744058501,
+          "cpm": 32.338435100548445,
+          "cpc": 0.19438597802197802,
+          "cpIv": 0.21441362424242424,
+          "cpNvwr": 35.378248
+        },
+        "FEB-2025": {
+          "mediaSpend": 227.666038,
+          "impressions": 5118,
+          "clicks": 869,
+          "iv": 849,
+          "ctr": 0.16979288784681515,
+          "cpm": 48.11270286016949,
+          "cpc": 0.30278927666666666,
+          "cpIv": 0.3255798673835125,
+          "cpNvwr": 90.836783
+        },
+        "MAR-2025": {
+          "mediaSpend": 200.22798000000003,
+          "impressions": 4437,
+          "clicks": 878,
+          "iv": 775,
+          "ctr": 0.19788145143114716,
+          "cpm": 42.91692974452555,
+          "cpc": 0.19598731249999998,
+          "cpIv": 0.2239855,
+          "cpNvwr": 7.8394924999999995
+        }
+      }
+    },
+    "K 1600 GT(K48)": {
+      "totalMediaSpend": 445.030354,
+      "totalImpressions": 7054,
+      "totalClicks": 862,
+      "totalIV": 464,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 29.623654000000002,
+          "impressions": 629,
+          "clicks": 58,
+          "iv": 28,
+          "ctr": 0.09220985691573927,
+          "cpm": 47.096429252782194,
+          "cpc": 0.5107526551724139,
+          "cpIv": 1.0579876428571429,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 237.67730699999998,
+          "impressions": 3729,
+          "clicks": 440,
+          "iv": 256,
+          "ctr": 0.11799410029498525,
+          "cpm": 81.10744594594595,
+          "cpc": 0.607792506329114,
+          "cpIv": 1.1711123902439025,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 177.729393,
+          "impressions": 2696,
+          "clicks": 364,
+          "iv": 180,
+          "ctr": 0.13501483679525222,
+          "cpm": 56.369191295546564,
+          "cpc": 0.49725679464285716,
+          "cpIv": 0.9439451016949153,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "F 900 GS (K81)": {
+      "totalMediaSpend": 522.631241,
+      "totalImpressions": 9709,
+      "totalClicks": 2069,
+      "totalIV": 1656,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 26.53922,
+          "impressions": 731,
+          "clicks": 157,
+          "iv": 111,
+          "ctr": 0.21477428180574556,
+          "cpm": 36.305362517099866,
+          "cpc": 0.16903961783439492,
+          "cpIv": 0.2390920720720721,
+          "cpNvwr": 6.634805
+        },
+        "FEB-2025": {
+          "mediaSpend": 287.468991,
+          "impressions": 4875,
+          "clicks": 1055,
+          "iv": 851,
+          "ctr": 0.2164102564102564,
+          "cpm": 50.82438021338506,
+          "cpc": 0.22489242918454935,
+          "cpIv": 0.2646461414141414,
+          "cpNvwr": 52.399936
+        },
+        "MAR-2025": {
+          "mediaSpend": 208.62303,
+          "impressions": 4103,
+          "clicks": 857,
+          "iv": 694,
+          "ctr": 0.20887155739702656,
+          "cpm": 45.540565604151226,
+          "cpc": 0.2178518546099291,
+          "cpIv": 0.2857405720930233,
+          "cpNvwr": 61.434223
+        }
+      }
+    },
+    "F 800 GS (K80)": {
+      "totalMediaSpend": 826.169237,
+      "totalImpressions": 74741,
+      "totalClicks": 2133,
+      "totalIV": 1568,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 24.423855,
+          "impressions": 569,
+          "clicks": 93,
+          "iv": 68,
+          "ctr": 0.1634446397188049,
+          "cpm": 42.924173989455184,
+          "cpc": 0.26262209677419357,
+          "cpIv": 0.3591743382352941,
+          "cpNvwr": 12.2119275
+        },
+        "FEB-2025": {
+          "mediaSpend": 302.214899,
+          "impressions": 9337,
+          "clicks": 805,
+          "iv": 658,
+          "ctr": 0.08621612937774446,
+          "cpm": 60.237065848214286,
+          "cpc": 0.33732756875000003,
+          "cpIv": 0.46130265811965815,
+          "cpNvwr": 26.9862055
+        },
+        "MAR-2025": {
+          "mediaSpend": 499.530483,
+          "impressions": 64835,
+          "clicks": 1235,
+          "iv": 842,
+          "ctr": 0.01904835351276317,
+          "cpm": 15.79077640029873,
+          "cpc": 0.31370696735905046,
+          "cpIv": 0.38304075362318846,
+          "cpNvwr": 21.143849600000003
+        }
+      }
+    },
+    "K 1600 B / Grand America (K61)": {
+      "totalMediaSpend": 206.65658099999996,
+      "totalImpressions": 2346,
+      "totalClicks": 315,
+      "totalIV": 0,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 23.704924000000002,
+          "impressions": 219,
+          "clicks": 32,
+          "iv": 0,
+          "ctr": 0.1461187214611872,
+          "cpm": 108.24166210045662,
+          "cpc": 0.7407788750000001,
+          "cpIv": 0,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 119.061963,
+          "impressions": 1183,
+          "clicks": 157,
+          "iv": 0,
+          "ctr": 0.1327134404057481,
+          "cpm": 72.71608465608466,
+          "cpc": 0.5848229787234043,
+          "cpIv": 0,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 63.889694,
+          "impressions": 944,
+          "clicks": 126,
+          "iv": 0,
+          "ctr": 0.13347457627118645,
+          "cpm": 67.00475873015873,
+          "cpc": 0.5147926585365854,
+          "cpIv": 0,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "S 1000 XR (K69)": {
+      "totalMediaSpend": 559.313405,
+      "totalImpressions": 10866,
+      "totalClicks": 2054,
+      "totalIV": 1744,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 23.321505,
+          "impressions": 673,
+          "clicks": 105,
+          "iv": 93,
+          "ctr": 0.15601783060921248,
+          "cpm": 34.653053491827635,
+          "cpc": 0.2221095714285714,
+          "cpIv": 0.2507688709677419,
+          "cpNvwr": 7.773834999999999
+        },
+        "FEB-2025": {
+          "mediaSpend": 248.419303,
+          "impressions": 5003,
+          "clicks": 925,
+          "iv": 775,
+          "ctr": 0.18488906656006396,
+          "cpm": 51.189396113602385,
+          "cpc": 0.28419673029045645,
+          "cpIv": 0.3936288045977011,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 287.572597,
+          "impressions": 5190,
+          "clicks": 1024,
+          "iv": 876,
+          "ctr": 0.1973025048169557,
+          "cpm": 42.529716133424095,
+          "cpc": 0.21250392176870747,
+          "cpIv": 0.2384585992366412,
+          "cpNvwr": 12.4952306
+        }
+      }
+    },
+    "R nineT (KR1)": {
+      "totalMediaSpend": 315.258164,
+      "totalImpressions": 2880,
+      "totalClicks": 397,
+      "totalIV": 231,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 16.624913,
+          "impressions": 221,
+          "clicks": 33,
+          "iv": 14,
+          "ctr": 0.1493212669683258,
+          "cpm": 75.22585067873302,
+          "cpc": 0.5037852424242424,
+          "cpIv": 1.1874937857142858,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 189.38376399999999,
+          "impressions": 1566,
+          "clicks": 202,
+          "iv": 116,
+          "ctr": 0.12899106002554278,
+          "cpm": 67.31402153846153,
+          "cpc": 0.5757120263157894,
+          "cpIv": 0.9115440416666667,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 109.24948699999999,
+          "impressions": 1093,
+          "clicks": 162,
+          "iv": 101,
+          "ctr": 0.14821591948764867,
+          "cpm": 86.73228865979381,
+          "cpc": 0.5802091034482758,
+          "cpIv": 0.9897684705882352,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "R 18 B / Transcontinental (K35)": {
+      "totalMediaSpend": 156.209797,
+      "totalImpressions": 1947,
+      "totalClicks": 230,
+      "totalIV": 69,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 15.06022,
+          "impressions": 140,
+          "clicks": 21,
+          "iv": 8,
+          "ctr": 0.15,
+          "cpm": 107.57299999999998,
+          "cpc": 0.7171533333333333,
+          "cpIv": 1.8825275,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 102.52221000000002,
+          "impressions": 1155,
+          "clicks": 130,
+          "iv": 43,
+          "ctr": 0.11255411255411256,
+          "cpm": 117.17112396694216,
+          "cpc": 0.7876503333333333,
+          "cpIv": 3.1506013333333334,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 38.627367,
+          "impressions": 652,
+          "clicks": 79,
+          "iv": 18,
+          "ctr": 0.12116564417177914,
+          "cpm": 47.74846082949309,
+          "cpc": 0.4934007619047619,
+          "cpIv": 2.0722832,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "C 400 GT (K08)": {
+      "totalMediaSpend": 195.79781300000005,
+      "totalImpressions": 3022,
+      "totalClicks": 617,
+      "totalIV": 442,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 8.812426,
+          "impressions": 193,
+          "clicks": 41,
+          "iv": 34,
+          "ctr": 0.21243523316062177,
+          "cpm": 45.66023834196891,
+          "cpc": 0.21493721951219513,
+          "cpIv": 0.259189,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 99.672296,
+          "impressions": 1470,
+          "clicks": 305,
+          "iv": 223,
+          "ctr": 0.20748299319727892,
+          "cpm": 71.39868646864686,
+          "cpc": 0.34339368253968255,
+          "cpIv": 0.6181086285714286,
+          "cpNvwr": 21.633802
+        },
+        "MAR-2025": {
+          "mediaSpend": 87.313091,
+          "impressions": 1359,
+          "clicks": 271,
+          "iv": 185,
+          "ctr": 0.199411331861663,
+          "cpm": 70.52879999999999,
+          "cpc": 0.31698337078651684,
+          "cpIv": 0.4864055172413793,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "R 1300 GS Adventure (KA2)": {
+      "totalMediaSpend": 200.612055,
+      "totalImpressions": 5383,
+      "totalClicks": 838,
+      "totalIV": 639,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 8.060961,
+          "impressions": 295,
+          "clicks": 48,
+          "iv": 39,
+          "ctr": 0.16271186440677965,
+          "cpm": 27.325291525423733,
+          "cpc": 0.16793668750000001,
+          "cpIv": 0.2066913076923077,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 98.722211,
+          "impressions": 2376,
+          "clicks": 374,
+          "iv": 263,
+          "ctr": 0.1574074074074074,
+          "cpm": 46.311196969696965,
+          "cpc": 0.27083256962025315,
+          "cpIv": 0.4975761162790697,
+          "cpNvwr": 21.395773
+        },
+        "MAR-2025": {
+          "mediaSpend": 93.828883,
+          "impressions": 2712,
+          "clicks": 416,
+          "iv": 337,
+          "ctr": 0.15339233038348082,
+          "cpm": 22.527762484774666,
+          "cpc": 0.16223941228070177,
+          "cpIv": 0.18495293000000002,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "R 1250 RS (K54)": {
+      "totalMediaSpend": 74.77657400000001,
+      "totalImpressions": 1737,
+      "totalClicks": 329,
+      "totalIV": 185,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 6.944163,
+          "impressions": 149,
+          "clicks": 31,
+          "iv": 21,
+          "ctr": 0.2080536912751678,
+          "cpm": 46.605120805369125,
+          "cpc": 0.22400525806451613,
+          "cpIv": 0.33067442857142854,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 30.045329,
+          "impressions": 739,
+          "clicks": 124,
+          "iv": 63,
+          "ctr": 0.16779431664411368,
+          "cpm": 57.05872197309417,
+          "cpc": 0.30295464285714285,
+          "cpIv": 0.530170625,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 37.787082000000005,
+          "impressions": 849,
+          "clicks": 174,
+          "iv": 101,
+          "ctr": 0.2049469964664311,
+          "cpm": 20.48350892857143,
+          "cpc": 0.10196235555555556,
+          "cpIv": 0.1764733076923077,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "G 310 R (K03)": {
+      "totalMediaSpend": 145.867763,
+      "totalImpressions": 2614,
+      "totalClicks": 423,
+      "totalIV": 303,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 6.929322,
+          "impressions": 203,
+          "clicks": 28,
+          "iv": 17,
+          "ctr": 0.13793103448275862,
+          "cpm": 34.134591133004925,
+          "cpc": 0.24747578571428572,
+          "cpIv": 0.40760717647058825,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 81.353181,
+          "impressions": 1394,
+          "clicks": 216,
+          "iv": 150,
+          "ctr": 0.15494978479196556,
+          "cpm": 30.563733067729082,
+          "cpc": 0.19178742499999998,
+          "cpIv": 0.3335433478260869,
+          "cpNvwr": 7.671497
+        },
+        "MAR-2025": {
+          "mediaSpend": 57.58525999999999,
+          "impressions": 1017,
+          "clicks": 179,
+          "iv": 136,
+          "ctr": 0.176007866273353,
+          "cpm": 57.659620786516854,
+          "cpc": 0.33107782258064516,
+          "cpIv": 0.41891479591836733,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "R 1250 R (K53)": {
+      "totalMediaSpend": 63.153815,
+      "totalImpressions": 1123,
+      "totalClicks": 217,
+      "totalIV": 178,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 3.51,
+          "impressions": 94,
+          "clicks": 13,
+          "iv": 12,
+          "ctr": 0.13829787234042554,
+          "cpm": 37.34042553191489,
+          "cpc": 0.26999999999999996,
+          "cpIv": 0.2925,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 41.67665,
+          "impressions": 641,
+          "clicks": 110,
+          "iv": 91,
+          "ctr": 0.17160686427457097,
+          "cpm": 52.65957446808511,
+          "cpc": 0.275,
+          "cpIv": 0.41250000000000003,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 17.967164999999998,
+          "impressions": 388,
+          "clicks": 94,
+          "iv": 75,
+          "ctr": 0.2422680412371134,
+          "cpm": 41.3017874015748,
+          "cpc": 0.17484423333333332,
+          "cpIv": 0.34968846666666664,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "F 900 GS Adventure (K82)": {
+      "totalMediaSpend": 85.14216099999999,
+      "totalImpressions": 1820,
+      "totalClicks": 350,
+      "totalIV": 285,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 3.494926,
+          "impressions": 136,
+          "clicks": 27,
+          "iv": 21,
+          "ctr": 0.19852941176470587,
+          "cpm": 25.697985294117647,
+          "cpc": 0.1294417037037037,
+          "cpIv": 0.1664250476190476,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 47.246402,
+          "impressions": 814,
+          "clicks": 163,
+          "iv": 127,
+          "ctr": 0.20024570024570024,
+          "cpm": 36.325305699481866,
+          "cpc": 0.16692342857142858,
+          "cpIv": 0.2417511724137931,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 34.400833,
+          "impressions": 870,
+          "clicks": 160,
+          "iv": 137,
+          "ctr": 0.1839080459770115,
+          "cpm": 41.4291568627451,
+          "cpc": 0.20447293548387097,
+          "cpIv": 0.2948214418604651,
+          "cpNvwr": 4.225774
+        }
+      }
+    },
+    "C 400 X (K09)": {
+      "totalMediaSpend": 75.762703,
+      "totalImpressions": 1132,
+      "totalClicks": 199,
+      "totalIV": 113,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 3.267151,
+          "impressions": 68,
+          "clicks": 18,
+          "iv": 8,
+          "ctr": 0.2647058823529412,
+          "cpm": 48.046338235294115,
+          "cpc": 0.1815083888888889,
+          "cpIv": 0.408393875,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 35.460859,
+          "impressions": 488,
+          "clicks": 90,
+          "iv": 56,
+          "ctr": 0.18442622950819673,
+          "cpm": 71.8489603960396,
+          "cpc": 0.40315249999999997,
+          "cpIv": 0.6597040909090909,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 37.034693000000004,
+          "impressions": 576,
+          "clicks": 91,
+          "iv": 49,
+          "ctr": 0.1579861111111111,
+          "cpm": 73.89231292517007,
+          "cpc": 0.3620723333333334,
+          "cpIv": 0.678885625,
+          "cpNvwr": 10.86217
+        }
+      }
+    },
+    "G 310 GS (K02)": {
+      "totalMediaSpend": 67.72269200000001,
+      "totalImpressions": 1368,
+      "totalClicks": 260,
+      "totalIV": 203,
+      "monthlyData": {
+        "JAN-2025": {
+          "mediaSpend": 1.5548,
+          "impressions": 88,
+          "clicks": 14,
+          "iv": 10,
+          "ctr": 0.1590909090909091,
+          "cpm": 17.668181818181818,
+          "cpc": 0.11105714285714285,
+          "cpIv": 0.15548,
+          "cpNvwr": 0
+        },
+        "FEB-2025": {
+          "mediaSpend": 37.81279000000001,
+          "impressions": 729,
+          "clicks": 127,
+          "iv": 119,
+          "ctr": 0.17421124828532236,
+          "cpm": 41.08670149253731,
+          "cpc": 0.1776005806451613,
+          "cpIv": 0.20391177777777778,
+          "cpNvwr": 0
+        },
+        "MAR-2025": {
+          "mediaSpend": 28.355102000000002,
+          "impressions": 551,
+          "clicks": 119,
+          "iv": 74,
+          "ctr": 0.2159709618874773,
+          "cpm": 39.8344693877551,
+          "cpc": 0.23659260606060606,
+          "cpIv": 0.3717883809523809,
+          "cpNvwr": 0
+        }
+      }
+    },
+    "Customer Support": {
+      "totalMediaSpend": 4264.969999999999,
+      "totalImpressions": 2346625,
+      "totalClicks": 16181,
+      "totalIV": 0,
+      "monthlyData": {
+        "MAR-2025": {
+          "mediaSpend": 4264.969999999999,
+          "impressions": 2346625,
+          "clicks": 16181,
+          "iv": 0,
+          "ctr": 0.006895434933148671,
+          "cpm": 1.817491077611463,
+          "cpc": 0.2635788888202212,
+          "cpIv": 0,
+          "cpNvwr": 0
+        }
+      }
+    }
+  },
+  "yearToDateTotals": {
+    "mediaSpend": 207738.3235770001,
+    "impressions": 43295758,
+    "clicks": 574830,
+    "iv": 102941
+  },
+  "yearToDateAverages": {
+    "ctr": 0.013276820329603653,
+    "cpm": 4.798121875519538,
+    "cpc": 0.3613908870048537,
+    "cpIv": 1.954278718955519,
+    "cpNvwr": 87.01814729403307
+  },
+  "lastUpdated": "2025-04-01T13:35:41.149Z",
+  "monthlyComparison": {
+    "mediaSpendChange": 35.02723371346807,
+    "impressionsChange": 56.963355778226756,
+    "clicksChange": 23.675614580389944,
+    "ctrChange": -21.207332777001156,
+    "cpmChange": -13.975314146412682,
+    "cpcChange": 9.17854273180061
+  }
+}

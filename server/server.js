@@ -8,6 +8,7 @@ dotenv.config();
 
 // Import routes
 const franceRoutes = require("./routes/france");
+const insightsRoutes = require("./routes/insights");
 
 const app = express();
 const PORT = process.env.PORT || 5001;
@@ -23,6 +24,7 @@ app.get("/api/health", (req, res) => {
 
 // Use route handlers
 app.use("/api/france", franceRoutes);
+app.use("/api/insights", insightsRoutes);
 
 // Future route imports will go here
 // const germanyRoutes = require('./routes/germany');

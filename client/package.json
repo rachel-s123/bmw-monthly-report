@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "kill-servers": "lsof -ti:5000,5001,5173,5174 | xargs kill -9 2>/dev/null || true",
+    "dev": "npm run kill-servers && vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -16,7 +17,9 @@
     "chart.js": "^4.4.8",
     "react": "^19.0.0",
     "react-chartjs-2": "^5.3.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "recharts": "^2.15.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
