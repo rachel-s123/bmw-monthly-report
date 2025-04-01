@@ -1,9 +1,29 @@
 {
-  "name": "bmw-weekly-exports",
+  "name": "bmw-marketing-dashboard",
   "version": "1.0.0",
+  "description": "BMW Marketing Dashboard - Vite Migration",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "kill-servers": "lsof -ti:5000,5001,5173,5174 | xargs kill -9 || true",
+    "dev": "npm run kill-servers && concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": [
+    "bmw",
+    "dashboard",
+    "vite",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
   "dependencies": {
-    "csv-parser": "^3.0.0",
-    "openai": "^4.24.1",
-    "express": "^4.18.2"
+    "csv-parser": "^3.2.0"
   }
 }
