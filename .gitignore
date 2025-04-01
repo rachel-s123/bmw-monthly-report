@@ -35,4 +35,5 @@ out/
 Thumbs.db
 
 # Project specific
-monthly_exports/ 
+monthly_exports/
+*.csv
