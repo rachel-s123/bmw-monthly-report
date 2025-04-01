@@ -1,0 +1,9 @@
+{
+  "name": "bmw-weekly-exports",
+  "version": "1.0.0",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "openai": "^4.24.1",
+    "express": "^4.18.2"
+  }
+}
