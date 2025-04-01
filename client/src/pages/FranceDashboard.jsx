@@ -227,53 +227,57 @@ const FranceDashboard = () => {
   // For updating summary when month changes
   useEffect(() => {
     const updateSummary = async () => {
-      if (!isLoading) {
-        try {
-          setIsSummaryLoading(true);
-          
-          // Create a local copy of data to avoid reference issues
-          let currentData;
-          let timeframe;
-          
-          if (viewingYTD) {
-            timeframe = 'Year-to-Date';
-            currentData = {...ytdData};
-            console.log('Generating YTD summary with data:', JSON.stringify(currentData));
-          } else if (selectedMonth) {
-            timeframe = selectedMonth;
-            currentData = {...monthlyData[selectedMonth]};
-            console.log('Generating Monthly summary with data:', selectedMonth);
-          } else {
-            setSummaryInsights("No data period selected.");
+      setIsSummaryLoading(true);
+      try {
+        // Get the relevant data based on viewing mode (month or YTD)
+        let marketData;
+        let timeframe;
+        
+        if (viewingYTD) {
+          marketData = {
+            totalMediaSpend: ytdData.totalMediaSpend,
+            totalImpressions: ytdData.totalImpressions,
+            totalClicks: ytdData.totalClicks,
+            totalIV: ytdData.totalIV,
+            weightedCTR: ytdData.avgCTR,
+            weightedCPM: ytdData.avgCPM,
+            weightedCPC: ytdData.avgCPC,
+            weightedCPIV: ytdData.avgCPIV,
+            weightedCpNVWR: ytdData.avgCpNVWR,
+            models: ytdData.models
+          };
+          timeframe = "Year-to-Date";
+        } else {
+          const currentMonthData = monthlyData[selectedMonth];
+          if (!currentMonthData) {
+            setSummaryInsights('# Summary Not Available');
             setIsSummaryLoading(false);
             return;
           }
           
-          // Don't call API if data is incomplete
-          if (!currentData || Object.keys(currentData).length === 0) {
-            setSummaryInsights("No data available for this time period.");
-            setIsSummaryLoading(false);
-            return;
-          }
-          
-          // Local fallback if API fails
-          try {
-            // Call the AI service to generate insights
-            const insights = await generateMarketSummary(currentData, timeframe);
-            setSummaryInsights(insights);
-          } catch (error) {
-            console.error('API service failed:', error);
-            
-            // Create a basic summary from the data we have
-            const basicSummary = generateBasicSummary(currentData, timeframe);
-            setSummaryInsights(basicSummary);
-          }
-        } catch (error) {
-          console.error('Summary generation failed:', error);
-          setSummaryInsights(`Data summary for ${viewingYTD ? 'YTD' : selectedMonth} could not be generated.`);
-        } finally {
-          setIsSummaryLoading(false);
+          marketData = {
+            totalMediaSpend: currentMonthData.totalMediaSpend,
+            totalImpressions: currentMonthData.totalImpressions,
+            totalClicks: currentMonthData.totalClicks,
+            totalIV: currentMonthData.totalIV,
+            weightedCTR: currentMonthData.avgCTR,
+            weightedCPM: currentMonthData.avgCPM,
+            weightedCPC: currentMonthData.avgCPC,
+            weightedCPIV: currentMonthData.avgCPIV,
+            weightedCpNVWR: currentMonthData.avgCpNVWR,
+            models: currentMonthData.models
+          };
+          timeframe = selectedMonth;
         }
+        
+        // Generate summary insights
+        const summary = await generateMarketSummary(marketData, timeframe, "France");
+        setSummaryInsights(summary);
+      } catch (error) {
+        console.error('Error generating summary:', error);
+        setSummaryInsights('# Summary Not Available');
+      } finally {
+        setIsSummaryLoading(false);
       }
     };
     
