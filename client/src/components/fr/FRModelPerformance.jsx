@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { fetchFranceData } from '../../services/api';
+import { fetchFRData } from '../../services/api';
 
-const FranceModelPerformance = ({ month }) => {
+const FRModelPerformance = ({ month }) => {
   const [modelData, setModelData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -10,7 +10,7 @@ const FranceModelPerformance = ({ month }) => {
     const loadData = async () => {
       try {
         setLoading(true);
-        const data = await fetchFranceData();
+        const data = await fetchFRData();
         
         if (data && data.modelPerformance) {
           // Filter out models with very low media spend for cleaner display
@@ -105,4 +105,4 @@ const FranceModelPerformance = ({ month }) => {
   );
 };
 
-export default FranceModelPerformance; 
+export default FRModelPerformance; 

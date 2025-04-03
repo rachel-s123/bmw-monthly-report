@@ -1,12 +1,15 @@
 import { useState, useEffect } from 'react'
 import DashboardLayout from './components/DashboardLayout'
-import FranceDashboard from './pages/FranceDashboard'
-import PortugalDashboard from './pages/PortugalDashboard'
+import FRDashboard from './pages/FRDashboard'
+import PTDashboard from './pages/PTDashboard'
+import TemplateFRDashboard from './pages/TemplateFRDashboard'
+import TemplatePTDashboard from './pages/TemplatePTDashboard'
 import './App.css'
 
 function App() {
-  const [activeCountry, setActiveCountry] = useState('france')
-  const [availableCountries, setAvailableCountries] = useState(['france', 'portugal'])
+  const [activeCountry, setActiveCountry] = useState('fr')
+  const [availableCountries, setAvailableCountries] = useState(['fr', 'pt'])
+  const [useTemplate, setUseTemplate] = useState(false)
 
   // Function to handle country changes
   const handleCountryChange = (country) => {
@@ -14,20 +17,48 @@ function App() {
       setActiveCountry(country);
     } else {
       console.warn(`Dashboard for ${country} is not available`);
-      // Fallback to France if selected country is not available
-      setActiveCountry('france');
+      // Fallback to FR if selected country is not available
+      setActiveCountry('fr');
     }
   }
 
+  // Function to toggle between original and template dashboards
+  const toggleTemplate = () => {
+    setUseTemplate(!useTemplate);
+  }
+
   return (
-    <DashboardLayout 
-      activeCountry={activeCountry} 
-      onCountryChange={handleCountryChange}
-      availableCountries={availableCountries}
-    >
-      {activeCountry === 'france' && <FranceDashboard />}
-      {activeCountry === 'portugal' && <PortugalDashboard />}
-    </DashboardLayout>
+    <>
+      <div className="template-toggle">
+        <span>Dashboard Version: </span>
+        <button 
+          className={!useTemplate ? 'active' : ''} 
+          onClick={() => setUseTemplate(false)}
+        >
+          Original
+        </button>
+        <button 
+          className={useTemplate ? 'active' : ''} 
+          onClick={() => setUseTemplate(true)}
+        >
+          Template
+        </button>
+      </div>
+      
+      <DashboardLayout 
+        activeCountry={activeCountry} 
+        onCountryChange={handleCountryChange}
+        availableCountries={availableCountries}
+      >
+        {/* FR Dashboards */}
+        {activeCountry === 'fr' && !useTemplate && <FRDashboard />}
+        {activeCountry === 'fr' && useTemplate && <TemplateFRDashboard />}
+        
+        {/* PT Dashboards */}
+        {activeCountry === 'pt' && !useTemplate && <PTDashboard />}
+        {activeCountry === 'pt' && useTemplate && <TemplatePTDashboard />}
+      </DashboardLayout>
+    </>
   )
 }
 

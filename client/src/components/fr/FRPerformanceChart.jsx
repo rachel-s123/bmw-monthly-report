@@ -1,42 +1,25 @@
-import { useEffect, useState } from 'react';
-import { Line } from 'react-chartjs-2';
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-} from 'chart.js';
-import { fetchFranceData } from '../../services/api';
+import React, { useEffect, useState, useRef } from 'react';
+import { Chart, registerables } from 'chart.js';
+import { fetchFRData } from '../../services/api';
 
-// Register ChartJS components
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend
-);
+// Register Chart.js components
+Chart.register(...registerables);
 
-const FrancePerformanceChart = () => {
+const FRPerformanceChart = () => {
   const [chartData, setChartData] = useState({
     labels: [],
     datasets: [],
   });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const chartRef = useRef(null);
 
   useEffect(() => {
     const loadData = async () => {
       try {
         setLoading(true);
         // Until the API is ready, use mock data
-        // const data = await fetchFranceData();
+        // const data = await fetchFRData();
         const mockData = {
           labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
           salesData: [1200, 1900, 1700, 2100, 2400, 2800],
@@ -68,7 +51,7 @@ const FrancePerformanceChart = () => {
         });
         setLoading(false);
       } catch (err) {
-        console.error('Failed to load France performance data:', err);
+        console.error('Failed to load FR performance data:', err);
         setError('Failed to load performance data. Please try again later.');
         setLoading(false);
       }
@@ -101,9 +84,9 @@ const FrancePerformanceChart = () => {
   return (
     <div className="chart-container">
       <h3 className="chart-title">Monthly Performance</h3>
-      <Line data={chartData} options={options} />
+      <canvas ref={chartRef} />
     </div>
   );
 };
 
-export default FrancePerformanceChart; 
+export default FRPerformanceChart; 

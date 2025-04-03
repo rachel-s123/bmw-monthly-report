@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const DashboardLayout = ({ children, activeCountry, onCountryChange, availableCountries = ['france'] }) => {
+const DashboardLayout = ({ children, activeCountry, onCountryChange, availableCountries = ['fr'] }) => {
   const handleCountryChange = (country) => {
     if (onCountryChange) {
       onCountryChange(country);
@@ -9,8 +9,8 @@ const DashboardLayout = ({ children, activeCountry, onCountryChange, availableCo
 
   // Country name mapping for display
   const countryNames = {
-    'france': 'France',
-    'portugal': 'Portugal',
+    'fr': 'FR',
+    'pt': 'PT',
   };
 
   return (

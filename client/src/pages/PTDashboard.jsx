@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { fetchPortugalData } from '../services/api';
+import { fetchPTData } from '../services/api';
 import { generateMarketSummary } from '../services/aiService';
 import ReactMarkdown from 'react-markdown';
 import '../styles/dashboard.css';
@@ -8,7 +8,7 @@ import {
   BarChart, Bar, PieChart, Pie, Cell
 } from 'recharts';
 
-const PortugalDashboard = () => {
+const PTDashboard = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [monthlyData, setMonthlyData] = useState({});
   const [availableMonths, setAvailableMonths] = useState([]);
@@ -29,7 +29,7 @@ const PortugalDashboard = () => {
       try {
         setIsLoading(true);
         
-        const data = await fetchPortugalData();
+        const data = await fetchPTData();
         if (!data || !data.months) {
           throw new Error('Invalid data format received');
         }
@@ -286,7 +286,7 @@ const PortugalDashboard = () => {
       }
       
       // Generate summary insights
-      const summary = await generateMarketSummary(marketData, timeframe, "Portugal");
+      const summary = await generateMarketSummary(marketData, timeframe, "PT");
       setSummaryInsights(summary);
     } catch (error) {
       console.error('Error generating summary:', error);
@@ -323,7 +323,7 @@ const PortugalDashboard = () => {
   };
 
   if (isLoading) {
-    return <div className="loading">Loading Portugal data...</div>;
+    return <div className="loading">Loading PT data...</div>;
   }
 
   const currentData = viewingYTD ? ytdData : monthlyData[selectedMonth];
@@ -337,7 +337,7 @@ const PortugalDashboard = () => {
   return (
     <div className="dashboard">
       <div className="dashboard-header">
-        <h2>Portugal Market Performance</h2>
+        <h2>PT Market Performance</h2>
         <div className="time-controls">
           <button onClick={toggleMonthSelector} className={!viewingYTD ? 'active' : ''}>
             {selectedMonth || 'Select Month'}
@@ -480,4 +480,4 @@ const PortugalDashboard = () => {
   );
 };
 
-export default PortugalDashboard; 
+export default PTDashboard; 

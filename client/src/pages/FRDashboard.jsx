@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { fetchFranceData } from '../services/api';
+import { fetchFRData } from '../services/api';
 import { generateMarketSummary } from '../services/aiService';
 import ReactMarkdown from 'react-markdown';
 import '../styles/dashboard.css';
@@ -8,7 +8,7 @@ import {
   BarChart, Bar, PieChart, Pie, Cell
 } from 'recharts';
 
-const FranceDashboard = () => {
+const FRDashboard = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [monthlyData, setMonthlyData] = useState({});
   const [availableMonths, setAvailableMonths] = useState([]);
@@ -29,7 +29,7 @@ const FranceDashboard = () => {
       try {
         setIsLoading(true);
         
-        const data = await fetchFranceData();
+        const data = await fetchFRData();
         if (!data || !data.months) {
           throw new Error('Invalid data format received');
         }
@@ -271,7 +271,7 @@ const FranceDashboard = () => {
         }
         
         // Generate summary insights
-        const summary = await generateMarketSummary(marketData, timeframe, "France");
+        const summary = await generateMarketSummary(marketData, timeframe, "FR");
         setSummaryInsights(summary);
       } catch (error) {
         console.error('Error generating summary:', error);
@@ -284,39 +284,8 @@ const FranceDashboard = () => {
     updateSummary();
   }, [selectedMonth, viewingYTD, isLoading, monthlyData, ytdData]);
 
-  // Function to generate a basic summary if AI fails
-  const generateBasicSummary = (data, timeframe) => {
-    let summary = `# ${timeframe} Data Summary\n\n`;
-    
-    // 1. Performance Overview
-    summary += `## 1. PERFORMANCE OVERVIEW\n\n`;
-    summary += `The France market for ${timeframe} showed total media spend of €${data.totalMediaSpend?.toLocaleString() || 0} with ${(data.totalImpressions / 1000000).toFixed(1)}M impressions, generating ${data.totalIV?.toLocaleString() || 0} Interacting Visits and ${data.validCpNVWRCount?.toLocaleString() || 0} NVWRs.\n\n`;
-    
-    // 2. Trend Analysis 
-    summary += `## 2. TREND ANALYSIS\n\n`;
-    summary += `- CTR: ${(data.avgCTR * 100).toFixed(2)}%\n`;
-    summary += `- CPM: €${data.avgCPM?.toFixed(2) || 0}\n`;
-    summary += `- CPC: €${data.avgCPC?.toFixed(2) || 0}\n`;
-    summary += `- CP IV: €${data.avgCPIV?.toFixed(2) || 0}\n`;
-    summary += `- CP NVWR: €${data.avgCpNVWR?.toFixed(2) || 0}\n\n`;
-    
-    // 3. Model Performance
-    summary += `## 3. MODEL PERFORMANCE\n\n`;
-    
-    const topModels = Object.entries(data.models || {})
-      .map(([name, stats]) => ({name, ...stats}))
-      .sort((a, b) => b.mediaSpend - a.mediaSpend)
-      .slice(0, 5);
-      
-    topModels.forEach((model, index) => {
-      summary += `${index + 1}. **${model.name}**: €${model.mediaSpend?.toLocaleString() || 0} spend, ${(model.impressions / 1000).toFixed(1)}K impressions, ${model.clicks?.toLocaleString() || 0} clicks\n`;
-    });
-    
-    return summary;
-  };
-
   if (isLoading) {
-    return <div className="loading">Loading France dashboard data...</div>;
+    return <div className="loading">Loading FR dashboard data...</div>;
   }
 
   const currentMonthData = viewingYTD ? ytdData : monthlyData[selectedMonth] || {};
@@ -340,7 +309,7 @@ const FranceDashboard = () => {
   }
   
   return (
-    <div className="country-dashboard france-dashboard">
+    <div className="country-dashboard fr-dashboard">
       <div className="dashboard-content">
         <div className="top-controls">
           <div className="month-selector-container">
@@ -443,7 +412,7 @@ const FranceDashboard = () => {
         </div>
         
         <h3 className="section-title">Efficiency Metrics</h3>
-        <div className="summary-stats">
+        <div className="metrics-grid">
           <div className="stat-card media-spend-card">
             <h3>Media Spend</h3>
             <p className="stat-value">
@@ -650,4 +619,4 @@ const FranceDashboard = () => {
   );
 };
 
-export default FranceDashboard; 
+export default FRDashboard; 

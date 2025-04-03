@@ -8,19 +8,20 @@ const fs = require("fs");
 dotenv.config();
 
 // Import routes
-const franceRoutes = require("./routes/france");
+const marketDataRoutes = require("./routes/market-data");
+const frRoutes = require("./routes/fr");
 const insightsRoutes = require("./routes/insights");
 
-// Check if Portugal routes exist before importing
-let portugalRoutes;
-const portugalRoutePath = path.join(__dirname, "./routes/portugal.js");
-const hasPortugalRoutes = fs.existsSync(portugalRoutePath);
-if (hasPortugalRoutes) {
+// Check if PT routes exist before importing
+let ptRoutes;
+const ptRoutePath = path.join(__dirname, "./routes/pt.js");
+const hasPTRoutes = fs.existsSync(ptRoutePath);
+if (hasPTRoutes) {
   try {
-    portugalRoutes = require("./routes/portugal");
-    console.log("Portugal routes loaded successfully");
+    ptRoutes = require("./routes/pt");
+    console.log("PT routes loaded successfully");
   } catch (error) {
-    console.warn("Error loading Portugal routes:", error.message);
+    console.warn("Error loading PT routes:", error.message);
   }
 }
 
@@ -37,17 +38,18 @@ app.get("/api/health", (req, res) => {
 });
 
 // Use route handlers
-app.use("/api/france", franceRoutes);
+app.use("/api/market-data", marketDataRoutes);
+app.use("/api/fr", frRoutes);
 app.use("/api/insights", insightsRoutes);
 
-// Only add Portugal routes if they exist
-if (hasPortugalRoutes && portugalRoutes) {
-  app.use("/api/portugal", portugalRoutes);
+// Only add PT routes if they exist
+if (hasPTRoutes && ptRoutes) {
+  app.use("/api/pt", ptRoutes);
 }
 
 // Future route imports will go here
-// const germanyRoutes = require('./routes/germany');
-// app.use('/api/germany', germanyRoutes);
+// const deRoutes = require('./routes/de');
+// app.use('/api/de', deRoutes);
 
 // Serve static assets if in production
 if (process.env.NODE_ENV === "production") {
