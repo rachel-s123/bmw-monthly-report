@@ -49,22 +49,44 @@ const BaseMarketDashboard = ({ config }) => {
     const fetchData = async () => {
       try {
         setIsLoading(true);
-        console.log(`Fetching data for country: ${config.code}`);
+        console.log(`[BaseMarketDashboard] Fetching data for country: ${config.code}`);
+        console.log(`[BaseMarketDashboard] API URL: /api/market-data/${config.code.toLowerCase()}`);
         
-        // Implement API fetch with the country code parameter
-        const response = await fetch(`/api/market-data/${config.code.toLowerCase()}`);
+        let response;
+        let data;
         
-        console.log('API Response status:', response.status);
-        
-        if (!response.ok) {
-          throw new Error(`Failed to load ${config.name} data: ${response.status} ${response.statusText}`);
+        try {
+          // First try the market-data endpoint
+          response = await fetch(`/api/market-data/${config.code.toLowerCase()}`);
+          console.log(`[BaseMarketDashboard] Market-data API Response status: ${response.status}`);
+          
+          if (!response.ok) {
+            throw new Error(`Market-data endpoint failed: ${response.status}`);
+          }
+          
+          data = await response.json();
+          console.log(`[BaseMarketDashboard] Successfully fetched from market-data endpoint`);
+        } catch (marketDataError) {
+          // If market-data endpoint fails, try direct country endpoint
+          console.warn(`[BaseMarketDashboard] Market-data endpoint failed, trying direct endpoint: /api/${config.code.toLowerCase()}`);
+          
+          response = await fetch(`/api/${config.code.toLowerCase()}`);
+          console.log(`[BaseMarketDashboard] Direct API Response status: ${response.status}`);
+          
+          if (!response.ok) {
+            throw new Error(`Both endpoints failed. Direct endpoint: ${response.status}`);
+          }
+          
+          data = await response.json();
+          console.log(`[BaseMarketDashboard] Successfully fetched from direct endpoint`);
         }
         
-        const data = await response.json();
-        console.log('Received data structure:', Object.keys(data));
+        console.log(`[BaseMarketDashboard] Received data keys: ${Object.keys(data).join(', ')}`);
+        console.log(`[BaseMarketDashboard] Months in data: ${data.months ? Object.keys(data.months).join(', ') : 'No months found'}`);
         
         // Parse the data from the aggregated format
         if (data.months) {
+          console.log(`[BaseMarketDashboard] Found months data, processing...`);
           // Format monthly data
           const formattedMonthlyData = {};
           
@@ -84,18 +106,26 @@ const BaseMarketDashboard = ({ config }) => {
             };
           });
           
+          console.log(`[BaseMarketDashboard] Processed monthly data: ${Object.keys(formattedMonthlyData).join(', ')}`);
           setMonthlyData(formattedMonthlyData);
           
           // Set available months
           const months = Object.keys(formattedMonthlyData).sort();
-          console.log('Available months:', months);
+          console.log(`[BaseMarketDashboard] Available months: ${months.join(', ')}`);
           setAvailableMonths(months);
           
           if (months.length > 0) {
-            setSelectedMonth(months[months.length - 1]);
+            const latestMonth = months[months.length - 1];
+            console.log(`[BaseMarketDashboard] Setting selected month to latest: ${latestMonth}`);
+            setSelectedMonth(latestMonth);
+          } else {
+            console.warn(`[BaseMarketDashboard] No months available`);
           }
           
           // Format YTD data
+          console.log(`[BaseMarketDashboard] YTD Totals: ${JSON.stringify(data.yearToDateTotals || {})}`);
+          console.log(`[BaseMarketDashboard] YTD Averages: ${JSON.stringify(data.yearToDateAverages || {})}`);
+          
           const ytdData = {
             totalMediaSpend: data.yearToDateTotals?.mediaSpend || 0,
             totalImpressions: data.yearToDateTotals?.impressions || 0,
@@ -112,6 +142,7 @@ const BaseMarketDashboard = ({ config }) => {
           
           // Add models for YTD view
           if (data.models) {
+            console.log(`[BaseMarketDashboard] Processing YTD models: ${Object.keys(data.models).join(', ')}`);
             Object.entries(data.models).forEach(([name, stats]) => {
               ytdData.models[name] = {
                 mediaSpend: stats.totalMediaSpend || 0,
@@ -120,17 +151,19 @@ const BaseMarketDashboard = ({ config }) => {
                 iv: stats.totalIV || 0
               };
             });
+          } else {
+            console.warn(`[BaseMarketDashboard] No YTD models found`);
           }
           
-          console.log('Formatted YTD data:', ytdData);
+          console.log(`[BaseMarketDashboard] Formatted YTD data:`, ytdData);
           setYtdData(ytdData);
         } else {
-          console.warn('Invalid data format - no months property found');
+          console.error(`[BaseMarketDashboard] Invalid data format - no months property found in:`, data);
         }
         
         setIsLoading(false);
       } catch (error) {
-        console.error(`Error loading ${config.name} data:`, error);
+        console.error(`[BaseMarketDashboard] Error loading ${config.name} data:`, error);
         setIsLoading(false);
       }
     };
