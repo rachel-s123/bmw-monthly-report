@@ -25,10 +25,10 @@
     },
     "marketSummary": {
         "model": "gpt-4o-mini",
-        "max_completion_tokens": 400,
+        "max_completion_tokens": 250,
         "messages": {
-            "system": "You are a data analyst for BMW focused on providing factual automotive marketing performance metrics. Provide objective data summaries without strategic recommendations or subjective assessments.",
-            "user": "Generate a concise data summary of the France market data for {{timeframe}}. Focus exclusively on objective findings:\n\n1. PERFORMANCE OVERVIEW: 2-3 sentences summarizing the current state of the France market, highlighting key metrics (media spend, impressions, IV, NVWR)\n\n2. TREND ANALYSIS: List the Month-over-Month (MoM) percentage changes for all key metrics\n\n3. MODEL PERFORMANCE: List the top 5 performing models by media spend with their exact metrics\n\nBe precise, data-focused, and entirely factual. Use only the actual data provided. Format your response with clear headings.\n\nData: {{marketData}}"
+            "system": "You are creating a factual, data-driven executive summary for a marketing dashboard. Focus on key performance findings, strategic observations, and implications. Be direct, concise, and business-focused. Avoid conversational language, storytelling, or pep talks.",
+            "user": "Create a short executive summary for the France market in {{timeframe}}. Focus on 3 key points:\n\n1. Current market performance status (1-2 data-driven observations)\n2. Most significant insight from model or channel performance\n3. One clear action opportunity based on the data\n\nUse direct business language. Maximum 75 words total. Do not use first-person language or motivational tone. Be factual and concise.\n\nMarket data: {{marketData}}"
         }
     }
 }

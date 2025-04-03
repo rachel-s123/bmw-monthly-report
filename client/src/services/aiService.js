@@ -4,8 +4,18 @@
  * @returns {string} - Formatted markdown text
  */
 const formatMarkdown = (text) => {
-  // Add line breaks after section titles (like "PERFORMANCE OVERVIEW:")
-  return text.replace(/(\d+\.\s+[A-Z\s]+):(\s*)/g, "$1:\n\n");
+  // For narrative summaries, we want to preserve the natural text flow
+  // with minimal formatting modifications
+  let formattedText = text;
+
+  // Remove any markdown formatting symbols that might interfere with readability
+  formattedText = formattedText.replace(/^#+\s+/gm, ""); // Remove heading markers
+  formattedText = formattedText.replace(/^\d+\.\s+/gm, ""); // Remove numbered lists
+
+  // Ensure paragraphs have proper spacing
+  formattedText = formattedText.replace(/\n{3,}/g, "\n\n");
+
+  return formattedText;
 };
 
 /**
@@ -13,20 +23,19 @@ const formatMarkdown = (text) => {
  */
 
 /**
- * Generate a market summary for the dashboard by calling the server's AI insights endpoint
+ * Generates a market summary from the provided market data.
  *
- * @param {Object} marketData - Current market data to analyze
- * @param {string} timeframe - The timeframe (month or 'YTD')
- * @param {string} country - The country name (France, Portugal, etc.)
- * @returns {Promise<string>} - The AI-generated market summary
+ * @param {Object} marketData - The market data containing metrics
+ * @param {string} timeframe - The timeframe for the summary (e.g., "MAR-2023", "Year-to-Date")
+ * @param {string} country - The country code (FR, PT, etc.)
+ * @returns {Promise<string>} A markdown-formatted summary of the market data
  */
 export const generateMarketSummary = async (
   marketData,
-  timeframe,
-  country = "France"
+  timeframe = "current month",
+  country = "FR"
 ) => {
   try {
-    // Call the server's insights API
     const response = await fetch("/api/insights/market-summary", {
       method: "POST",
       headers: {
@@ -40,16 +49,13 @@ export const generateMarketSummary = async (
     });
 
     if (!response.ok) {
-      throw new Error(`API responded with status: ${response.status}`);
+      throw new Error(`API error: ${response.status}`);
     }
 
     const data = await response.json();
-    return (
-      data.summary ||
-      "# Summary Not Available\n\nThe AI-powered summary service is not available at this time."
-    );
+    return data.summary || "# No market summary available";
   } catch (error) {
     console.error("Error generating market summary:", error);
-    return "# Summary Not Available\n\nThe AI-powered summary service is not available at this time.";
+    return `# Market Summary Unavailable\n\nUnable to generate market summary due to an error: ${error.message}`;
   }
 };
