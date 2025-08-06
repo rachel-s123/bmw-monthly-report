@@ -1,0 +1,47 @@
+{
+  "name": "bmw-monthly-report",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "dev:supabase": "concurrently \"npm run dev\" \"npm run build:watch\"",
+    "build:watch": "vite build --watch",
+    "supabase:setup": "echo 'Setting up Supabase...' && npm run build && npm run dev",
+    "start:full": "concurrently \"npm run dev\" \"npm run build:watch\" \"echo '🚀 BMW Dashboard with Supabase is running!'\"",
+    "test:supabase": "npm run build && echo '✅ Build successful' && npm run dev",
+    "start:supabase": "node scripts/start-supabase.js",
+    "start:supabase:sh": "./scripts/start-supabase.sh",
+    "supabase:dev": "npm run start:full",
+    "setup:supabase": "node scripts/setup-supabase.js",
+    "process:files": "node scripts/process-existing-files.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^17.2.1",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.536.0",
+    "papaparse": "^5.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^3.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^8.2.2",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.0",
+    "vite": "^7.0.4"
+  }
+}
