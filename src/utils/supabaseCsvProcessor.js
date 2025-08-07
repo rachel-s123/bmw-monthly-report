@@ -2,6 +2,11 @@ import Papa from 'papaparse';
 import { supabase, STORAGE_BUCKET, TABLES } from './supabase.js';
 import { processAllMonthsCompliance } from './autoComplianceProcessor.js';
 import { processAllMonthsKPI } from './autoKPIProcessor.js';
+import {
+  saveMarketMonthTotals,
+  saveMetricsBreakdown,
+  saveComplianceBreakdownHistory
+} from './metricsBreakdown.js';
 
 // Expected columns for BMW data validation - now varies by dimension
 const expectedColumnsByDimension = {
@@ -474,7 +479,8 @@ const combineDimensionData = (allData, country, year, month) => {
     dimensionData.forEach(row => {
       // Create a unified record structure
       const unifiedRecord = {
-        Country: row.Country || country,
+        Country: country,
+        'Sub Country': row.Country || null,
         'Campaign Type': row['Campaign Type'] || 'Not Mapped',
         'Channel Type': row['Channel Type'] || 'Not Mapped',
         'Channel Name': row['Channel Name'] || 'Not Mapped',
@@ -675,6 +681,18 @@ export const processAllCSVsFromSupabase = async () => {
     } catch (error) {
       console.warn('⚠️ Dimension coverage history saving failed:', error);
       // Don't fail the entire process if dimension coverage saving fails
+    }
+
+    // Save market totals, metrics breakdown, and compliance breakdown
+    try {
+      console.log('🔄 Saving market totals and metrics breakdown data...');
+      await saveMarketMonthTotals(allCombinedData);
+      await saveMetricsBreakdown(allCombinedData);
+      await saveComplianceBreakdownHistory(allCombinedData);
+      console.log('✅ Market totals and breakdown data saved successfully');
+    } catch (error) {
+      console.warn('⚠️ Saving market totals or breakdown data failed:', error);
+      // Continue processing even if saving fails
     }
 
     // Automatically process compliance for all months to enable MoM calculations
